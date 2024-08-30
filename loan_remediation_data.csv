@@ -1,0 +1,1001 @@
+customer_id,age,gender,income,loan_type,loan_amount,interest_rate,loan_term,loan_interest_rate,credit_score,employment_status,marital_status,remediation_strategy,missed_payments,missed_payments_duration,successful,timestamp
+18121,39,Male,30536,Home,19550,0.07,14,7.000000000000001,473,Self-employed,Single,Forbearance,12,10,False,2019-09-14
+395277,26,Male,143985,Personal,53774,0.16,54,16.0,386,Self-employed,Single,Loan Restructuring,5,1,True,2023-11-11
+432347,20,Male,170323,Personal,163742,0.09,25,9.0,627,Self-employed,Single,Payment Reminder,1,4,False,2022-12-11
+456904,38,Male,41820,Home,221750,0.1,58,10.0,424,Unemployed,Single,Forbearance,9,10,True,2023-05-02
+124059,62,Male,178307,Home,258990,0.13,43,13.0,404,Self-employed,Divorced,Deferment,0,0,True,2022-07-24
+156946,59,Male,160582,Student,48053,0.14,33,14.000000000000002,709,Employed,Married,Refinancing,3,10,True,2023-09-27
+171231,61,Female,26136,Business,237593,0.12,26,12.0,840,Self-employed,Married,Deferment,7,10,False,2021-12-18
+375585,26,Female,147102,Home,133509,0.06,17,6.0,616,Employed,Single,Forbearance,8,2,True,2022-11-08
+822735,58,Male,193194,Home,163713,0.12,52,12.0,504,Self-employed,Divorced,Loan Restructuring,7,3,False,2022-12-05
+701493,57,Male,161269,Auto,290084,0.11,56,11.0,558,Employed,Single,Debt Consolidation,3,6,True,2018-03-20
+665474,41,Female,197830,Personal,393953,0.06,45,6.0,562,Employed,Single,Loan Restructuring,10,1,False,2018-08-01
+998658,48,Male,134470,Student,146434,0.19,27,19.0,617,Employed,Single,Payment Reminder,6,3,False,2019-08-04
+511528,41,Female,161353,Personal,328521,0.18,21,18.0,685,Employed,Single,Loan Restructuring,5,3,True,2020-08-01
+676178,59,Male,198519,Auto,255370,0.2,42,20.0,747,Employed,Divorced,Refinancing,12,12,True,2022-07-10
+744400,18,Female,139479,Auto,411990,0.16,41,16.0,577,Unemployed,Divorced,Debt Consolidation,0,0,False,2023-07-14
+904798,42,Male,146587,Personal,140562,0.17,54,17.0,435,Unemployed,Married,Loan Restructuring,7,4,True,2020-04-09
+24126,27,Female,32373,Auto,47969,0.2,35,20.0,634,Unemployed,Divorced,Loan Restructuring,11,5,False,2018-03-22
+613705,43,Female,39266,Student,381532,0.08,17,8.0,361,Unemployed,Divorced,Deferment,12,3,True,2022-09-20
+352547,53,Male,185152,Business,160572,0.11,34,11.0,807,Self-employed,Divorced,Loan Restructuring,11,8,False,2018-01-31
+808473,55,Male,27518,Home,453894,0.16,48,16.0,378,Self-employed,Divorced,Refinancing,6,11,True,2018-07-13
+736804,54,Male,50405,Student,296072,0.14,37,14.000000000000002,519,Employed,Married,Refinancing,11,10,True,2020-02-09
+787599,57,Male,131086,Personal,387079,0.13,14,13.0,632,Employed,Married,Loan Restructuring,5,3,True,2022-05-07
+490173,23,Male,143438,Auto,447179,0.1,47,10.0,353,Unemployed,Single,Forbearance,4,7,False,2018-12-29
+601724,37,Male,185760,Personal,162973,0.14,35,14.000000000000002,354,Self-employed,Divorced,Loan Restructuring,12,3,True,2019-08-31
+356643,34,Male,184950,Business,49351,0.11,24,11.0,529,Unemployed,Divorced,Debt Consolidation,2,5,True,2023-09-10
+339124,41,Female,45749,Student,84843,0.13,58,13.0,523,Self-employed,Married,Forbearance,3,7,True,2023-03-13
+454449,47,Male,162364,Personal,18289,0.12,24,12.0,787,Employed,Divorced,Refinancing,7,7,True,2018-01-12
+953480,37,Male,46874,Personal,325103,0.19,12,19.0,427,Self-employed,Married,Debt Consolidation,9,4,False,2021-10-18
+171925,48,Male,137869,Business,15763,0.11,23,11.0,360,Unemployed,Divorced,Loan Restructuring,9,3,False,2023-09-28
+728859,37,Female,171044,Auto,280860,0.17,55,17.0,711,Self-employed,Married,Deferment,6,7,False,2019-10-09
+898843,64,Male,22997,Home,30065,0.17,27,17.0,776,Self-employed,Divorced,Loan Restructuring,11,12,True,2019-07-04
+71970,56,Male,145626,Student,217793,0.19,37,19.0,415,Unemployed,Married,Deferment,1,6,False,2022-07-02
+212903,34,Male,53023,Home,253005,0.08,57,8.0,345,Unemployed,Divorced,Debt Consolidation,11,2,False,2018-03-01
+222456,49,Female,78123,Student,168331,0.16,25,16.0,518,Self-employed,Married,Deferment,4,12,True,2018-06-23
+978981,43,Male,126174,Student,180751,0.11,41,11.0,608,Employed,Married,Debt Consolidation,11,11,True,2023-01-30
+308578,27,Female,67232,Home,183179,0.18,25,18.0,676,Self-employed,Single,Refinancing,3,7,True,2022-11-09
+251103,41,Male,34043,Auto,490267,0.08,51,8.0,540,Self-employed,Single,Debt Consolidation,10,10,False,2022-08-27
+153922,18,Female,186204,Auto,319050,0.12,31,12.0,483,Self-employed,Single,Refinancing,6,4,True,2021-06-07
+952270,27,Male,184425,Personal,381567,0.06,46,6.0,684,Employed,Married,Deferment,0,0,False,2020-02-11
+706261,58,Female,50749,Business,464469,0.19,43,19.0,315,Employed,Married,Loan Restructuring,8,5,False,2018-02-06
+34981,43,Female,86057,Student,67491,0.05,27,5.0,631,Employed,Married,Deferment,1,5,True,2018-04-04
+657642,49,Male,126213,Personal,320177,0.14,20,14.000000000000002,476,Employed,Married,Debt Consolidation,1,8,False,2018-01-27
+743722,56,Male,65172,Student,200314,0.15,39,15.0,687,Unemployed,Married,Forbearance,0,0,False,2018-01-05
+728336,58,Male,68312,Home,120708,0.18,38,18.0,572,Unemployed,Married,Deferment,7,5,True,2023-05-30
+190900,58,Male,190962,Business,224430,0.1,34,10.0,394,Employed,Divorced,Loan Restructuring,0,0,True,2022-05-13
+426946,46,Male,96476,Student,319037,0.08,18,8.0,754,Employed,Divorced,Refinancing,7,8,True,2020-05-22
+142014,42,Male,33713,Auto,383148,0.16,34,16.0,685,Unemployed,Divorced,Payment Reminder,4,6,False,2019-08-03
+970041,34,Male,48060,Personal,16842,0.08,47,8.0,546,Self-employed,Divorced,Deferment,11,5,False,2020-03-17
+333811,29,Male,108509,Auto,291274,0.12,27,12.0,317,Employed,Married,Refinancing,4,10,True,2020-06-21
+493326,39,Female,47954,Personal,429539,0.1,40,10.0,458,Employed,Divorced,Refinancing,2,9,True,2021-02-14
+749449,35,Male,192069,Personal,261660,0.18,15,18.0,796,Unemployed,Divorced,Deferment,10,3,True,2023-04-04
+89158,21,Female,170723,Home,359958,0.09,21,9.0,435,Unemployed,Married,Loan Restructuring,7,1,False,2021-12-30
+326882,35,Female,199852,Personal,51091,0.12,30,12.0,385,Unemployed,Single,Refinancing,9,9,True,2023-06-26
+244320,25,Female,40501,Business,139422,0.13,15,13.0,455,Employed,Single,Forbearance,12,9,False,2020-12-23
+939122,28,Male,43853,Personal,93811,0.11,30,11.0,839,Unemployed,Married,Deferment,5,3,False,2021-04-29
+763168,61,Female,108565,Personal,273854,0.12,60,12.0,812,Unemployed,Married,Payment Reminder,5,10,True,2021-08-16
+55504,37,Female,185143,Business,207777,0.2,20,20.0,373,Employed,Single,Forbearance,3,7,True,2018-08-23
+586423,56,Female,29269,Student,482088,0.14,14,14.000000000000002,574,Employed,Single,Debt Consolidation,12,8,False,2024-01-13
+265299,19,Female,37255,Home,70312,0.13,21,13.0,775,Employed,Married,Forbearance,1,8,True,2023-01-05
+815177,49,Female,119364,Auto,317422,0.1,48,10.0,818,Self-employed,Married,Payment Reminder,9,9,False,2018-08-16
+611870,54,Female,125998,Student,269995,0.18,19,18.0,616,Self-employed,Single,Refinancing,4,10,True,2019-03-06
+714167,46,Female,57088,Auto,160256,0.1,31,10.0,338,Unemployed,Single,Deferment,9,6,True,2019-10-10
+188978,26,Male,73480,Student,357283,0.18,37,18.0,681,Self-employed,Married,Payment Reminder,9,3,False,2018-08-24
+887195,55,Male,98858,Business,29704,0.16,60,16.0,558,Unemployed,Married,Refinancing,10,11,False,2022-07-23
+247780,36,Male,87427,Auto,103052,0.11,59,11.0,364,Unemployed,Married,Forbearance,0,0,True,2018-10-04
+235595,46,Male,82773,Home,107516,0.1,49,10.0,751,Unemployed,Divorced,Debt Consolidation,7,11,False,2022-12-03
+306867,29,Male,156105,Personal,322162,0.06,30,6.0,302,Employed,Single,Debt Consolidation,0,0,True,2022-02-12
+827492,19,Male,64844,Personal,354870,0.18,19,18.0,656,Unemployed,Single,Deferment,9,7,True,2022-09-02
+796214,62,Male,156658,Student,454918,0.07,22,7.000000000000001,537,Employed,Divorced,Forbearance,7,3,False,2020-06-23
+22029,44,Male,46980,Home,352526,0.16,16,16.0,841,Self-employed,Married,Refinancing,5,12,False,2018-08-16
+483372,27,Male,34511,Business,150866,0.08,25,8.0,551,Unemployed,Married,Deferment,0,0,True,2022-12-07
+710257,22,Male,79053,Home,31488,0.11,27,11.0,659,Employed,Single,Refinancing,6,12,False,2021-12-03
+268527,18,Female,196956,Personal,265393,0.08,28,8.0,477,Unemployed,Single,Debt Consolidation,11,9,True,2022-08-05
+39688,42,Male,29450,Student,151719,0.19,14,19.0,394,Unemployed,Single,Payment Reminder,12,1,True,2023-03-20
+93053,22,Male,189825,Auto,145716,0.1,19,10.0,844,Self-employed,Divorced,Debt Consolidation,8,11,True,2023-02-16
+961680,40,Female,168076,Personal,123307,0.18,15,18.0,440,Employed,Divorced,Forbearance,8,12,False,2018-03-13
+574118,46,Female,145360,Personal,73231,0.19,15,19.0,450,Unemployed,Married,Debt Consolidation,11,3,True,2018-06-05
+434354,29,Female,177067,Business,489461,0.19,36,19.0,324,Employed,Divorced,Forbearance,4,3,False,2022-08-09
+675641,61,Male,38485,Personal,419154,0.1,28,10.0,574,Employed,Married,Deferment,5,4,False,2022-09-04
+928244,24,Male,197567,Student,365417,0.11,42,11.0,647,Unemployed,Married,Refinancing,4,2,False,2019-04-15
+993998,63,Female,111605,Personal,317695,0.12,58,12.0,846,Employed,Married,Debt Consolidation,9,11,False,2019-06-04
+945348,58,Male,40601,Auto,328685,0.11,18,11.0,462,Unemployed,Single,Deferment,10,9,False,2021-05-27
+296177,28,Male,157277,Auto,272737,0.14,35,14.000000000000002,708,Self-employed,Single,Forbearance,12,4,True,2019-07-03
+118313,57,Female,46991,Auto,225388,0.19,51,19.0,798,Self-employed,Divorced,Deferment,4,8,True,2019-12-06
+794072,59,Female,42727,Student,95556,0.2,47,20.0,404,Unemployed,Married,Loan Restructuring,12,12,False,2018-07-22
+920525,63,Male,186029,Business,43504,0.12,18,12.0,586,Self-employed,Divorced,Loan Restructuring,12,3,False,2019-10-23
+184359,28,Male,171501,Student,478252,0.05,27,5.0,812,Self-employed,Married,Refinancing,6,5,False,2024-01-13
+684034,51,Female,165639,Business,409998,0.11,15,11.0,821,Employed,Single,Loan Restructuring,9,9,False,2019-09-27
+551240,47,Female,52997,Auto,198662,0.05,57,5.0,832,Self-employed,Single,Refinancing,11,8,True,2023-04-06
+521399,31,Male,82134,Student,444601,0.14,41,14.000000000000002,439,Unemployed,Married,Deferment,7,8,False,2021-02-14
+540933,33,Male,104906,Auto,393975,0.11,20,11.0,459,Self-employed,Single,Refinancing,9,10,False,2022-03-03
+204067,36,Male,158397,Auto,307347,0.07,25,7.000000000000001,511,Employed,Divorced,Forbearance,3,12,False,2018-12-09
+550174,36,Female,133866,Auto,262376,0.05,13,5.0,791,Employed,Single,Payment Reminder,7,10,False,2019-01-28
+675137,51,Female,48990,Auto,33978,0.11,34,11.0,675,Employed,Single,Loan Restructuring,5,4,True,2023-03-15
+842574,28,Female,33003,Business,132008,0.09,34,9.0,351,Unemployed,Single,Debt Consolidation,10,2,False,2023-10-19
+187134,62,Male,186592,Business,98202,0.06,35,6.0,713,Unemployed,Married,Loan Restructuring,3,5,False,2021-06-15
+679473,61,Female,153295,Home,352329,0.06,59,6.0,846,Employed,Single,Deferment,7,12,True,2021-02-25
+632712,43,Female,42424,Home,478203,0.11,36,11.0,341,Employed,Single,Forbearance,7,12,False,2021-11-06
+824283,65,Female,131626,Personal,272118,0.17,23,17.0,343,Employed,Married,Deferment,6,1,True,2018-12-06
+415115,22,Male,113463,Student,201316,0.08,23,8.0,501,Employed,Single,Loan Restructuring,8,7,False,2021-05-23
+299435,58,Male,141305,Business,362757,0.05,12,5.0,425,Self-employed,Divorced,Forbearance,9,10,True,2019-12-15
+13530,65,Male,76262,Student,356551,0.2,48,20.0,551,Unemployed,Married,Loan Restructuring,12,12,False,2020-02-07
+824792,21,Male,157832,Home,86954,0.16,18,16.0,633,Self-employed,Divorced,Loan Restructuring,3,4,False,2018-06-07
+724728,48,Male,79824,Personal,422543,0.05,26,5.0,650,Self-employed,Single,Deferment,11,8,False,2020-05-09
+529464,51,Male,80966,Business,101587,0.15,53,15.0,491,Self-employed,Single,Debt Consolidation,9,12,False,2020-12-23
+143886,56,Male,31649,Business,264401,0.06,19,6.0,665,Self-employed,Married,Deferment,11,11,True,2021-11-21
+94839,59,Female,176880,Student,110953,0.15,18,15.0,761,Self-employed,Single,Debt Consolidation,2,7,True,2021-12-18
+235545,42,Female,158789,Business,441400,0.14,16,14.000000000000002,446,Self-employed,Divorced,Debt Consolidation,1,12,False,2024-01-19
+343059,35,Female,189895,Auto,179909,0.12,43,12.0,760,Employed,Divorced,Debt Consolidation,5,1,False,2022-07-22
+306800,62,Male,151214,Business,362102,0.16,28,16.0,389,Unemployed,Married,Refinancing,5,1,False,2019-01-30
+641419,35,Female,73340,Business,125884,0.13,48,13.0,475,Employed,Married,Loan Restructuring,1,8,True,2021-10-22
+985371,36,Male,117361,Student,215523,0.17,35,17.0,329,Unemployed,Married,Loan Restructuring,10,8,True,2022-11-27
+343434,26,Male,186047,Student,482602,0.11,27,11.0,355,Employed,Single,Deferment,1,12,False,2021-05-26
+372830,33,Female,132148,Auto,350599,0.11,15,11.0,482,Unemployed,Single,Debt Consolidation,6,9,False,2019-06-24
+277451,56,Female,86790,Auto,419286,0.14,60,14.000000000000002,440,Employed,Married,Debt Consolidation,5,2,False,2018-12-25
+69536,55,Female,48360,Personal,201616,0.12,28,12.0,526,Self-employed,Single,Deferment,2,12,True,2018-11-10
+162577,53,Male,63819,Personal,187715,0.2,59,20.0,472,Unemployed,Divorced,Deferment,5,10,True,2020-08-14
+756835,65,Male,112572,Student,79918,0.19,19,19.0,812,Unemployed,Single,Forbearance,12,7,False,2022-01-05
+309392,47,Male,48261,Student,343199,0.19,35,19.0,682,Unemployed,Married,Deferment,12,12,False,2020-07-07
+932057,40,Male,56240,Student,367975,0.07,52,7.000000000000001,753,Unemployed,Single,Deferment,1,4,True,2022-11-08
+862686,51,Female,78451,Personal,173532,0.09,16,9.0,658,Employed,Single,Loan Restructuring,10,5,False,2022-07-04
+288573,58,Female,123967,Business,447177,0.11,36,11.0,661,Employed,Married,Loan Restructuring,8,7,True,2022-11-20
+590790,22,Male,24017,Auto,114379,0.09,59,9.0,442,Self-employed,Single,Payment Reminder,4,2,True,2019-08-29
+739213,40,Female,54864,Personal,312408,0.06,49,6.0,672,Unemployed,Divorced,Deferment,7,10,False,2019-10-22
+727185,30,Male,186436,Business,50191,0.2,57,20.0,777,Unemployed,Divorced,Loan Restructuring,2,11,False,2023-04-30
+58279,37,Male,108592,Business,245437,0.14,45,14.000000000000002,496,Unemployed,Divorced,Payment Reminder,4,11,True,2018-12-07
+326689,54,Female,199845,Auto,183129,0.18,59,18.0,632,Self-employed,Married,Debt Consolidation,9,7,False,2020-05-24
+560930,47,Male,118610,Personal,375151,0.09,24,9.0,397,Self-employed,Divorced,Deferment,6,10,True,2021-01-13
+819527,18,Female,106610,Student,415586,0.15,14,15.0,566,Employed,Single,Deferment,8,5,False,2023-04-06
+626327,52,Female,119777,Home,14572,0.08,41,8.0,824,Self-employed,Single,Debt Consolidation,3,8,False,2022-10-23
+871835,41,Female,90738,Home,200378,0.1,34,10.0,712,Employed,Single,Loan Restructuring,12,12,True,2022-03-12
+730172,46,Male,67380,Home,228972,0.18,57,18.0,548,Employed,Married,Loan Restructuring,8,12,True,2020-02-01
+874524,53,Male,46482,Auto,410420,0.19,39,19.0,520,Employed,Married,Loan Restructuring,0,0,True,2019-10-30
+855949,28,Male,24603,Personal,364266,0.06,47,6.0,814,Employed,Single,Deferment,11,7,False,2019-08-01
+746344,41,Male,74525,Business,404697,0.13,49,13.0,417,Self-employed,Single,Payment Reminder,4,7,True,2023-08-13
+891259,27,Female,101406,Personal,16124,0.08,40,8.0,335,Self-employed,Single,Deferment,5,1,True,2023-06-18
+942513,21,Male,118258,Personal,391710,0.06,44,6.0,622,Self-employed,Married,Deferment,2,12,True,2019-09-23
+145824,47,Male,191387,Personal,34639,0.05,45,5.0,631,Employed,Married,Forbearance,0,0,False,2018-11-04
+700950,64,Male,53236,Student,109965,0.17,17,17.0,308,Employed,Married,Debt Consolidation,9,3,False,2020-10-27
+395141,54,Female,94014,Business,13044,0.16,39,16.0,465,Employed,Divorced,Deferment,4,7,False,2024-02-11
+956254,55,Male,59073,Student,260220,0.08,29,8.0,599,Self-employed,Married,Payment Reminder,0,0,False,2018-11-11
+655303,55,Female,82232,Business,376403,0.19,41,19.0,826,Employed,Married,Deferment,1,10,False,2018-09-03
+286307,41,Female,180294,Auto,19782,0.09,22,9.0,502,Self-employed,Married,Debt Consolidation,5,8,False,2021-11-26
+408856,42,Female,189239,Personal,194624,0.18,53,18.0,356,Self-employed,Married,Forbearance,11,11,True,2020-06-25
+238993,28,Female,129562,Business,27910,0.08,52,8.0,696,Employed,Divorced,Debt Consolidation,9,3,True,2020-09-23
+331179,38,Male,149672,Business,182699,0.13,15,13.0,655,Self-employed,Married,Deferment,7,5,False,2022-04-28
+863619,45,Male,106129,Personal,63801,0.17,20,17.0,790,Employed,Married,Payment Reminder,7,2,False,2022-07-15
+388841,51,Female,140610,Personal,346825,0.2,38,20.0,744,Self-employed,Married,Payment Reminder,4,1,False,2022-10-06
+463292,48,Male,47694,Auto,451468,0.07,33,7.000000000000001,727,Self-employed,Single,Payment Reminder,2,8,False,2021-08-13
+887519,35,Female,64034,Student,247144,0.05,20,5.0,413,Employed,Divorced,Deferment,5,9,False,2020-03-01
+106826,51,Male,48754,Business,63137,0.12,48,12.0,606,Unemployed,Divorced,Refinancing,1,3,False,2022-11-23
+393665,27,Female,22373,Home,120672,0.17,18,17.0,632,Self-employed,Single,Deferment,9,7,False,2019-04-27
+220147,57,Male,35871,Auto,28817,0.1,59,10.0,536,Unemployed,Married,Loan Restructuring,5,7,True,2019-02-16
+810416,64,Male,93448,Business,449662,0.2,33,20.0,552,Self-employed,Divorced,Deferment,1,6,False,2023-05-13
+221096,52,Female,67427,Student,171890,0.16,31,16.0,690,Employed,Single,Payment Reminder,10,2,False,2021-01-08
+586998,45,Female,75161,Home,375976,0.16,15,16.0,830,Self-employed,Married,Debt Consolidation,9,7,True,2018-09-30
+650133,53,Male,52046,Personal,382944,0.08,37,8.0,562,Employed,Divorced,Debt Consolidation,0,0,False,2021-08-03
+208355,32,Male,27737,Personal,433923,0.17,18,17.0,313,Unemployed,Divorced,Deferment,5,6,False,2019-05-11
+186456,38,Female,26800,Business,369379,0.19,20,19.0,756,Employed,Married,Forbearance,6,6,False,2018-08-23
+120309,34,Female,117285,Personal,261650,0.14,50,14.000000000000002,571,Self-employed,Married,Deferment,11,2,False,2020-05-10
+98278,58,Female,106931,Auto,381978,0.07,29,7.000000000000001,818,Unemployed,Single,Loan Restructuring,0,0,False,2020-06-22
+765944,39,Male,173927,Student,408017,0.11,42,11.0,762,Self-employed,Single,Refinancing,0,0,False,2019-06-15
+237785,52,Male,105137,Student,294962,0.09,26,9.0,491,Unemployed,Married,Deferment,10,11,True,2023-02-14
+557781,62,Male,194888,Auto,492558,0.08,25,8.0,513,Unemployed,Single,Deferment,8,5,True,2022-10-25
+977891,38,Male,59924,Student,10111,0.08,43,8.0,648,Unemployed,Married,Payment Reminder,9,4,False,2019-03-23
+101454,60,Female,59882,Personal,232787,0.07,53,7.000000000000001,781,Employed,Divorced,Deferment,9,1,True,2019-08-07
+28018,24,Male,176711,Personal,67773,0.15,31,15.0,508,Self-employed,Married,Payment Reminder,5,5,False,2018-04-15
+20475,21,Male,73568,Auto,28167,0.14,56,14.000000000000002,532,Self-employed,Divorced,Refinancing,6,10,True,2022-10-10
+175425,62,Male,125278,Auto,278002,0.06,43,6.0,707,Self-employed,Single,Loan Restructuring,11,2,False,2021-11-01
+4319,22,Female,150952,Student,187678,0.13,57,13.0,741,Unemployed,Single,Refinancing,4,8,True,2021-03-19
+13337,55,Male,27805,Business,432204,0.2,36,20.0,674,Unemployed,Single,Refinancing,8,12,True,2022-11-10
+203700,43,Female,176621,Business,256163,0.14,47,14.000000000000002,517,Self-employed,Married,Loan Restructuring,11,11,True,2018-01-28
+810673,34,Male,101042,Home,435492,0.06,48,6.0,302,Unemployed,Single,Deferment,2,10,True,2023-08-31
+126180,40,Male,172448,Personal,368594,0.14,43,14.000000000000002,312,Self-employed,Divorced,Debt Consolidation,2,2,False,2020-05-07
+700669,49,Female,157823,Business,33580,0.06,43,6.0,305,Self-employed,Single,Loan Restructuring,1,1,False,2023-12-19
+755125,37,Male,67798,Auto,17910,0.11,36,11.0,813,Self-employed,Married,Debt Consolidation,6,6,True,2021-09-19
+482004,56,Male,71533,Student,496834,0.09,22,9.0,752,Employed,Single,Deferment,6,2,True,2018-10-26
+492593,26,Female,65852,Auto,333882,0.16,35,16.0,734,Self-employed,Divorced,Forbearance,11,1,False,2019-04-15
+395873,35,Male,62674,Personal,256985,0.2,49,20.0,301,Employed,Married,Forbearance,1,1,False,2020-04-12
+968525,51,Male,133229,Auto,53949,0.08,20,8.0,691,Employed,Divorced,Loan Restructuring,10,8,False,2019-12-14
+161141,35,Female,117707,Student,140234,0.05,25,5.0,307,Unemployed,Divorced,Refinancing,4,8,False,2022-01-07
+827161,35,Female,122556,Business,92387,0.13,47,13.0,300,Unemployed,Single,Payment Reminder,1,5,False,2020-06-20
+525398,57,Female,166845,Student,325705,0.07,46,7.000000000000001,394,Self-employed,Married,Loan Restructuring,2,6,False,2020-04-04
+21741,46,Male,162110,Home,98708,0.12,12,12.0,469,Employed,Married,Refinancing,6,11,False,2018-06-15
+343781,46,Female,168204,Home,292414,0.15,23,15.0,375,Unemployed,Single,Forbearance,8,2,False,2023-09-14
+64240,36,Female,141946,Business,176702,0.05,53,5.0,623,Unemployed,Single,Debt Consolidation,4,7,True,2023-09-19
+807341,49,Male,119170,Business,269057,0.16,46,16.0,450,Unemployed,Single,Loan Restructuring,9,12,True,2023-03-07
+134324,18,Male,163793,Personal,54518,0.16,42,16.0,661,Self-employed,Single,Debt Consolidation,0,0,False,2023-02-04
+688028,56,Male,191360,Business,367592,0.06,16,6.0,503,Self-employed,Single,Deferment,2,6,False,2022-10-27
+112667,37,Male,107595,Personal,65034,0.06,31,6.0,797,Employed,Single,Deferment,3,11,True,2023-07-20
+974016,27,Female,139449,Auto,233069,0.07,14,7.000000000000001,821,Unemployed,Divorced,Loan Restructuring,4,2,False,2022-02-04
+519309,38,Female,94475,Home,26316,0.19,39,19.0,794,Self-employed,Married,Deferment,6,2,False,2018-02-21
+79425,43,Female,52113,Business,212024,0.14,31,14.000000000000002,670,Employed,Divorced,Refinancing,10,12,True,2021-12-23
+199110,24,Male,188552,Business,404214,0.2,27,20.0,787,Self-employed,Single,Forbearance,2,8,False,2020-11-01
+355469,40,Female,54677,Personal,108518,0.07,22,7.000000000000001,316,Employed,Single,Forbearance,8,5,False,2019-05-01
+482840,55,Male,75283,Home,320892,0.1,60,10.0,334,Employed,Single,Forbearance,7,9,True,2020-07-14
+303770,57,Male,39811,Student,401126,0.17,55,17.0,440,Self-employed,Married,Loan Restructuring,7,2,True,2019-05-08
+472245,62,Male,149810,Student,445749,0.17,32,17.0,415,Employed,Married,Deferment,6,10,True,2020-12-17
+462808,52,Female,76451,Personal,377337,0.11,26,11.0,527,Employed,Married,Refinancing,4,1,True,2023-09-22
+179785,62,Male,30140,Auto,36232,0.1,29,10.0,722,Employed,Single,Forbearance,2,5,True,2020-04-24
+798066,30,Female,108160,Personal,278615,0.11,20,11.0,419,Unemployed,Married,Deferment,7,3,False,2019-04-22
+574584,40,Female,109671,Student,87310,0.16,33,16.0,821,Self-employed,Divorced,Loan Restructuring,12,4,False,2021-01-30
+758399,62,Female,63601,Personal,34757,0.08,59,8.0,659,Employed,Divorced,Loan Restructuring,5,5,True,2022-07-20
+783810,27,Male,118834,Auto,302290,0.19,46,19.0,421,Employed,Single,Debt Consolidation,0,0,False,2023-09-26
+870006,47,Male,56035,Personal,305354,0.13,43,13.0,654,Employed,Single,Deferment,5,3,False,2019-04-22
+377164,47,Male,41591,Auto,212732,0.16,46,16.0,701,Self-employed,Married,Deferment,11,5,False,2020-11-22
+897724,45,Female,40053,Personal,58017,0.07,40,7.000000000000001,710,Employed,Single,Forbearance,1,12,True,2021-07-04
+252189,21,Male,122290,Business,30274,0.11,52,11.0,328,Unemployed,Single,Loan Restructuring,12,12,True,2018-08-15
+85267,23,Male,44835,Personal,380103,0.13,34,13.0,354,Self-employed,Single,Loan Restructuring,4,6,False,2022-10-03
+405462,65,Male,70803,Personal,235515,0.12,22,12.0,402,Unemployed,Single,Payment Reminder,12,6,False,2019-01-27
+149916,65,Male,141217,Business,209012,0.09,59,9.0,330,Employed,Divorced,Debt Consolidation,9,6,True,2022-06-13
+639714,25,Male,159252,Personal,323421,0.06,17,6.0,657,Employed,Divorced,Loan Restructuring,8,9,False,2021-07-10
+79313,33,Female,101022,Student,35122,0.12,40,12.0,838,Self-employed,Married,Forbearance,1,5,False,2021-05-10
+889783,64,Female,78601,Business,286219,0.15,29,15.0,579,Unemployed,Single,Forbearance,12,9,True,2018-05-12
+909243,56,Female,39019,Auto,393679,0.19,27,19.0,552,Employed,Divorced,Forbearance,0,0,False,2021-04-15
+723232,38,Female,148382,Auto,61430,0.07,46,7.000000000000001,522,Employed,Married,Loan Restructuring,9,12,False,2018-09-16
+888195,23,Male,109980,Home,313139,0.07,22,7.000000000000001,423,Self-employed,Divorced,Forbearance,8,2,False,2021-08-07
+813003,23,Male,175589,Student,294850,0.16,58,16.0,356,Employed,Divorced,Forbearance,3,1,False,2020-10-10
+616939,20,Female,167765,Student,329424,0.2,59,20.0,422,Unemployed,Divorced,Refinancing,10,8,True,2022-09-18
+187478,57,Male,88616,Personal,28235,0.05,55,5.0,348,Self-employed,Single,Deferment,12,1,True,2021-07-15
+593603,61,Male,58310,Auto,95775,0.11,14,11.0,463,Unemployed,Single,Forbearance,1,6,True,2020-09-21
+363683,46,Male,105449,Personal,45399,0.15,32,15.0,740,Self-employed,Married,Debt Consolidation,0,0,False,2022-05-31
+958873,55,Female,34044,Auto,233058,0.15,20,15.0,661,Unemployed,Married,Deferment,3,6,False,2022-10-15
+572049,19,Male,111281,Student,407740,0.1,53,10.0,585,Self-employed,Single,Refinancing,3,12,False,2021-09-11
+180433,19,Male,154775,Student,242658,0.11,60,11.0,416,Self-employed,Single,Forbearance,10,3,False,2021-08-29
+104061,26,Female,61790,Business,428092,0.08,30,8.0,770,Employed,Married,Debt Consolidation,10,12,True,2023-01-25
+534021,46,Male,153767,Business,323247,0.13,12,13.0,317,Employed,Divorced,Refinancing,0,0,False,2018-11-15
+558553,28,Male,91634,Auto,408181,0.12,50,12.0,677,Unemployed,Divorced,Deferment,6,6,True,2019-12-12
+182271,28,Male,158264,Home,411221,0.17,24,17.0,423,Self-employed,Single,Payment Reminder,5,5,True,2021-08-17
+482705,56,Male,136097,Auto,58662,0.19,35,19.0,841,Unemployed,Divorced,Forbearance,5,6,False,2018-06-06
+288001,24,Female,154094,Home,33361,0.13,13,13.0,616,Employed,Single,Payment Reminder,5,6,False,2023-05-05
+453619,25,Female,107662,Home,364922,0.16,45,16.0,486,Self-employed,Single,Debt Consolidation,6,9,True,2019-12-26
+636204,37,Male,57565,Auto,409465,0.1,12,10.0,608,Self-employed,Married,Payment Reminder,2,5,False,2018-06-02
+550349,51,Male,93586,Personal,290128,0.07,27,7.000000000000001,496,Unemployed,Single,Deferment,7,5,False,2024-01-13
+377647,31,Female,137744,Student,450612,0.17,24,17.0,645,Employed,Married,Forbearance,12,5,True,2023-10-14
+51211,31,Male,100394,Student,391534,0.09,60,9.0,509,Self-employed,Married,Loan Restructuring,5,4,False,2020-12-09
+140385,65,Male,148764,Business,92629,0.07,58,7.000000000000001,751,Unemployed,Divorced,Loan Restructuring,3,7,False,2021-07-21
+863145,53,Female,86182,Home,25668,0.17,18,17.0,534,Employed,Divorced,Refinancing,9,4,True,2018-05-06
+436833,44,Female,28398,Business,277928,0.2,21,20.0,551,Unemployed,Single,Debt Consolidation,8,3,False,2023-01-25
+35795,27,Male,98087,Home,278912,0.19,34,19.0,789,Self-employed,Single,Payment Reminder,1,3,False,2020-11-21
+484132,40,Female,69257,Auto,211644,0.13,58,13.0,481,Employed,Married,Deferment,9,6,False,2023-06-12
+507982,32,Female,160175,Student,67056,0.08,58,8.0,848,Unemployed,Married,Loan Restructuring,12,10,False,2021-11-10
+983113,29,Male,148955,Personal,293410,0.07,13,7.000000000000001,825,Employed,Divorced,Refinancing,6,4,True,2021-08-13
+775916,25,Male,195204,Home,373662,0.08,38,8.0,630,Self-employed,Single,Deferment,7,7,True,2020-01-02
+122143,20,Female,134726,Student,120768,0.06,54,6.0,461,Self-employed,Married,Deferment,2,12,True,2019-01-01
+808762,55,Female,50199,Home,314493,0.16,55,16.0,419,Self-employed,Single,Deferment,12,5,False,2019-08-16
+756210,21,Female,48508,Personal,223336,0.11,34,11.0,654,Unemployed,Divorced,Debt Consolidation,12,9,True,2023-10-09
+525085,52,Female,168615,Auto,36872,0.14,57,14.000000000000002,804,Unemployed,Divorced,Debt Consolidation,1,2,False,2020-01-10
+227458,24,Male,99240,Student,91774,0.11,57,11.0,707,Unemployed,Single,Payment Reminder,11,8,False,2020-01-08
+12268,48,Male,100827,Home,219542,0.18,49,18.0,492,Self-employed,Single,Payment Reminder,9,2,True,2018-09-05
+910691,61,Female,159910,Business,446651,0.15,41,15.0,650,Unemployed,Single,Refinancing,9,7,True,2021-06-12
+574466,32,Male,162749,Student,80706,0.19,59,19.0,403,Unemployed,Married,Forbearance,12,10,True,2022-05-04
+248848,33,Male,95363,Home,207701,0.19,31,19.0,375,Unemployed,Single,Forbearance,10,9,False,2021-06-01
+92853,34,Female,199575,Personal,437505,0.14,29,14.000000000000002,513,Self-employed,Single,Payment Reminder,1,1,True,2021-01-16
+659430,63,Male,154761,Business,185809,0.07,29,7.000000000000001,513,Unemployed,Married,Forbearance,10,9,True,2020-03-16
+790107,63,Male,111756,Home,184579,0.15,42,15.0,546,Self-employed,Single,Loan Restructuring,11,10,False,2021-09-04
+414531,49,Male,126996,Student,420147,0.05,38,5.0,592,Unemployed,Single,Debt Consolidation,6,1,True,2020-02-26
+713019,20,Female,162986,Home,464810,0.12,58,12.0,374,Unemployed,Married,Refinancing,0,0,True,2021-11-04
+561328,60,Male,187591,Business,228606,0.11,45,11.0,315,Self-employed,Married,Refinancing,12,2,True,2021-09-03
+875470,57,Male,63144,Business,142619,0.06,36,6.0,686,Unemployed,Single,Refinancing,3,4,True,2023-05-12
+929692,52,Female,63665,Home,266456,0.08,39,8.0,413,Employed,Divorced,Deferment,3,2,False,2018-05-17
+900,52,Male,194478,Auto,304621,0.08,27,8.0,382,Unemployed,Married,Payment Reminder,12,12,False,2022-03-24
+550097,24,Male,38691,Student,478734,0.14,44,14.000000000000002,358,Employed,Married,Deferment,0,0,True,2023-11-17
+524162,45,Male,97833,Auto,181754,0.05,50,5.0,408,Employed,Divorced,Debt Consolidation,6,6,False,2023-04-08
+386892,34,Male,69097,Business,172527,0.19,34,19.0,551,Employed,Single,Forbearance,3,9,True,2022-01-24
+28780,49,Male,47277,Auto,418085,0.16,19,16.0,316,Unemployed,Married,Forbearance,1,6,False,2022-12-20
+377565,20,Male,157314,Home,291560,0.19,12,19.0,730,Unemployed,Married,Forbearance,5,2,False,2020-01-30
+380315,25,Male,82129,Student,15945,0.12,25,12.0,625,Employed,Divorced,Refinancing,5,8,True,2022-02-01
+866690,41,Male,193787,Student,318693,0.19,24,19.0,678,Unemployed,Single,Deferment,12,2,True,2020-09-03
+295688,22,Female,72077,Home,470958,0.11,54,11.0,757,Unemployed,Single,Deferment,11,9,False,2021-05-24
+153349,47,Male,109656,Business,279045,0.11,42,11.0,331,Employed,Single,Debt Consolidation,10,4,False,2018-12-11
+570531,64,Male,87671,Student,66447,0.1,33,10.0,430,Employed,Married,Forbearance,5,3,True,2019-09-25
+89718,60,Female,51359,Home,53092,0.14,48,14.000000000000002,443,Unemployed,Married,Debt Consolidation,8,2,False,2019-10-31
+609953,52,Male,142780,Student,403318,0.12,42,12.0,408,Self-employed,Divorced,Loan Restructuring,8,3,False,2018-09-09
+786295,56,Male,123232,Home,57091,0.15,52,15.0,705,Self-employed,Married,Refinancing,3,5,False,2019-01-04
+755531,49,Female,89230,Auto,134278,0.06,39,6.0,315,Unemployed,Single,Forbearance,11,6,True,2021-07-13
+360755,24,Male,80843,Home,255705,0.08,26,8.0,736,Employed,Married,Forbearance,2,3,False,2018-11-01
+771452,48,Male,27141,Business,203981,0.19,35,19.0,513,Employed,Divorced,Loan Restructuring,0,0,True,2022-04-22
+502449,22,Male,54583,Business,292904,0.15,39,15.0,416,Employed,Married,Forbearance,11,1,True,2018-01-17
+569517,63,Female,38054,Home,160549,0.11,59,11.0,632,Employed,Single,Payment Reminder,6,1,False,2019-02-23
+810483,58,Male,58898,Auto,160831,0.19,18,19.0,480,Employed,Single,Debt Consolidation,7,1,False,2020-12-09
+319807,20,Female,179754,Personal,67416,0.16,38,16.0,375,Unemployed,Single,Loan Restructuring,4,10,True,2020-07-10
+44577,50,Female,122456,Business,10910,0.09,28,9.0,349,Self-employed,Divorced,Payment Reminder,5,4,True,2018-10-23
+417516,24,Female,82952,Business,99885,0.18,38,18.0,374,Self-employed,Divorced,Loan Restructuring,10,4,True,2019-12-23
+50881,61,Male,155312,Personal,81980,0.06,48,6.0,541,Employed,Married,Deferment,10,3,True,2023-02-18
+354411,30,Male,47643,Home,438910,0.16,49,16.0,626,Self-employed,Divorced,Deferment,7,1,False,2023-09-30
+549738,27,Male,174080,Personal,105396,0.08,53,8.0,753,Unemployed,Married,Debt Consolidation,1,6,False,2021-06-30
+70969,47,Female,145849,Home,265353,0.05,19,5.0,696,Employed,Married,Payment Reminder,2,10,False,2023-09-27
+208767,56,Male,23560,Personal,356141,0.17,42,17.0,417,Unemployed,Divorced,Forbearance,8,4,False,2020-03-10
+47168,57,Male,98835,Auto,247875,0.15,25,15.0,794,Employed,Divorced,Payment Reminder,10,1,False,2021-09-02
+35747,59,Female,195130,Auto,120844,0.11,53,11.0,376,Self-employed,Single,Refinancing,11,8,True,2020-07-10
+170492,19,Male,23452,Business,232154,0.16,43,16.0,438,Self-employed,Single,Payment Reminder,0,0,False,2019-03-27
+469668,46,Female,77888,Personal,20007,0.06,32,6.0,483,Employed,Single,Refinancing,8,11,False,2018-03-08
+262122,20,Female,141252,Student,10536,0.17,48,17.0,337,Employed,Married,Loan Restructuring,5,3,True,2022-09-26
+375974,30,Male,38477,Business,103740,0.17,49,17.0,302,Self-employed,Divorced,Loan Restructuring,11,12,True,2019-07-07
+562331,40,Female,186375,Home,92345,0.19,18,19.0,618,Unemployed,Married,Payment Reminder,3,4,False,2018-11-11
+240226,55,Male,136497,Home,463187,0.17,46,17.0,516,Unemployed,Single,Refinancing,10,4,True,2019-12-12
+556268,21,Male,141787,Personal,431787,0.06,34,6.0,326,Unemployed,Divorced,Forbearance,8,2,False,2020-11-27
+923405,53,Female,79692,Home,434220,0.19,38,19.0,561,Self-employed,Single,Deferment,7,9,False,2018-10-16
+39146,39,Male,43373,Auto,431213,0.17,17,17.0,316,Employed,Divorced,Loan Restructuring,10,12,False,2021-06-04
+672857,30,Male,45100,Business,227299,0.06,50,6.0,570,Self-employed,Married,Forbearance,12,4,False,2021-02-06
+376306,64,Female,70629,Student,309861,0.12,28,12.0,653,Unemployed,Single,Refinancing,7,7,False,2018-04-21
+864146,47,Male,59026,Student,201510,0.09,23,9.0,575,Employed,Single,Payment Reminder,4,9,True,2021-02-01
+30979,56,Male,177340,Student,285147,0.19,17,19.0,392,Employed,Single,Loan Restructuring,5,12,True,2021-05-24
+538028,44,Male,100447,Home,188958,0.08,56,8.0,626,Self-employed,Married,Forbearance,8,9,False,2024-01-09
+632290,62,Female,70949,Student,89150,0.15,22,15.0,624,Self-employed,Married,Deferment,2,12,True,2023-10-09
+234610,32,Male,185044,Home,127754,0.05,24,5.0,776,Self-employed,Married,Loan Restructuring,0,0,False,2018-05-12
+739218,20,Male,31424,Personal,216659,0.07,25,7.000000000000001,844,Unemployed,Divorced,Payment Reminder,4,9,True,2023-12-30
+424810,27,Male,192326,Student,55712,0.15,34,15.0,537,Self-employed,Divorced,Loan Restructuring,11,4,True,2023-06-15
+860672,34,Male,39118,Auto,499715,0.16,27,16.0,322,Unemployed,Married,Refinancing,11,12,True,2019-11-30
+278966,47,Male,185787,Auto,298494,0.08,15,8.0,766,Self-employed,Married,Deferment,4,8,True,2022-08-29
+504062,55,Female,20658,Business,371883,0.11,37,11.0,306,Unemployed,Married,Refinancing,6,10,False,2023-08-05
+384381,46,Female,165430,Home,28975,0.19,49,19.0,308,Employed,Married,Forbearance,2,4,False,2022-07-09
+282014,27,Female,140976,Personal,496534,0.07,25,7.000000000000001,623,Employed,Married,Forbearance,2,11,False,2022-01-04
+697942,39,Male,66529,Personal,294771,0.1,55,10.0,346,Employed,Married,Payment Reminder,0,0,False,2018-05-15
+778669,36,Male,32882,Home,71045,0.15,45,15.0,665,Unemployed,Divorced,Payment Reminder,10,3,False,2019-10-19
+793216,46,Female,93228,Student,17333,0.13,51,13.0,782,Unemployed,Divorced,Loan Restructuring,5,5,True,2019-01-10
+795134,40,Male,93724,Student,216658,0.07,44,7.000000000000001,686,Employed,Single,Debt Consolidation,9,11,False,2024-01-03
+538073,47,Female,46310,Auto,309962,0.17,40,17.0,686,Employed,Married,Refinancing,3,1,False,2019-06-13
+344070,62,Male,118770,Personal,430843,0.08,15,8.0,607,Employed,Single,Debt Consolidation,8,6,False,2022-11-23
+952131,36,Female,39342,Auto,149959,0.12,51,12.0,448,Self-employed,Divorced,Payment Reminder,6,5,False,2023-10-20
+636999,31,Male,191796,Student,489544,0.15,26,15.0,729,Self-employed,Single,Payment Reminder,6,4,True,2018-10-10
+904339,32,Female,89876,Auto,155242,0.18,56,18.0,557,Unemployed,Married,Refinancing,2,8,True,2021-08-22
+279648,54,Male,99175,Personal,86461,0.18,31,18.0,715,Employed,Divorced,Debt Consolidation,8,12,False,2020-03-03
+156733,56,Female,158732,Home,177986,0.11,17,11.0,579,Unemployed,Married,Debt Consolidation,0,0,True,2021-09-23
+147919,26,Male,38258,Home,446140,0.06,59,6.0,527,Employed,Married,Forbearance,5,11,False,2023-02-11
+166336,53,Male,103858,Personal,38893,0.05,34,5.0,726,Employed,Married,Deferment,9,8,True,2022-04-22
+548208,54,Female,121520,Personal,389386,0.17,58,17.0,557,Employed,Divorced,Refinancing,3,6,True,2022-01-20
+230732,60,Male,88951,Auto,317883,0.14,48,14.000000000000002,790,Self-employed,Divorced,Deferment,1,7,False,2019-06-12
+850846,22,Female,183063,Student,323298,0.11,19,11.0,774,Unemployed,Single,Payment Reminder,0,0,True,2020-09-12
+964290,27,Male,129210,Student,404270,0.06,22,6.0,544,Employed,Divorced,Payment Reminder,11,11,True,2018-06-01
+990543,44,Male,70055,Business,480212,0.14,46,14.000000000000002,735,Unemployed,Divorced,Deferment,0,0,True,2023-06-24
+81838,37,Female,190535,Business,219870,0.15,28,15.0,625,Unemployed,Single,Deferment,6,4,False,2023-05-11
+782869,43,Male,71247,Auto,411845,0.14,45,14.000000000000002,823,Unemployed,Single,Loan Restructuring,4,1,True,2020-11-10
+334892,59,Female,190197,Personal,264174,0.05,23,5.0,394,Self-employed,Married,Refinancing,5,4,True,2022-05-22
+754980,55,Female,40316,Home,362263,0.08,37,8.0,475,Self-employed,Married,Payment Reminder,3,12,False,2023-08-03
+178919,53,Male,32579,Personal,111534,0.1,33,10.0,544,Self-employed,Single,Refinancing,7,9,False,2023-07-14
+698400,55,Male,170567,Auto,332930,0.2,53,20.0,370,Self-employed,Married,Deferment,5,7,False,2023-08-15
+292788,59,Female,125795,Personal,235590,0.17,49,17.0,606,Employed,Married,Loan Restructuring,11,5,True,2020-07-30
+317476,28,Female,91488,Auto,265774,0.17,13,17.0,614,Self-employed,Married,Loan Restructuring,10,3,False,2023-08-02
+719343,46,Male,155703,Personal,391451,0.08,51,8.0,518,Unemployed,Married,Debt Consolidation,2,1,True,2020-07-28
+531346,63,Male,119092,Business,322409,0.11,40,11.0,514,Employed,Divorced,Loan Restructuring,5,2,False,2020-02-27
+808117,26,Male,34088,Student,490312,0.15,34,15.0,514,Unemployed,Single,Deferment,3,12,True,2022-05-11
+130352,60,Male,28886,Auto,388673,0.2,37,20.0,454,Unemployed,Married,Debt Consolidation,11,3,False,2021-11-02
+758301,37,Male,162665,Home,309932,0.05,50,5.0,850,Employed,Divorced,Deferment,2,3,False,2019-04-08
+583287,51,Male,177863,Home,412785,0.14,34,14.000000000000002,493,Self-employed,Married,Refinancing,9,10,True,2022-09-18
+498664,31,Male,67917,Business,13909,0.17,40,17.0,439,Employed,Single,Forbearance,7,8,True,2018-04-04
+325427,27,Female,128968,Business,350745,0.13,29,13.0,438,Unemployed,Single,Refinancing,0,0,True,2023-05-29
+190505,27,Male,51048,Personal,136447,0.11,16,11.0,718,Unemployed,Single,Refinancing,7,3,False,2019-09-12
+944069,40,Female,39644,Student,175642,0.16,49,16.0,398,Employed,Married,Refinancing,12,10,True,2019-04-05
+612337,45,Male,129996,Home,389894,0.19,38,19.0,522,Self-employed,Divorced,Payment Reminder,10,12,False,2021-08-10
+518386,55,Female,120044,Student,59180,0.12,60,12.0,515,Unemployed,Married,Forbearance,7,2,True,2018-02-01
+606169,40,Male,130023,Home,460057,0.16,43,16.0,339,Self-employed,Married,Refinancing,11,9,False,2018-03-08
+968007,56,Male,111315,Personal,91232,0.16,51,16.0,301,Employed,Divorced,Refinancing,5,11,True,2023-05-03
+657080,30,Female,174867,Auto,55801,0.19,59,19.0,558,Unemployed,Divorced,Refinancing,9,3,True,2022-11-16
+991315,44,Female,195786,Personal,359600,0.19,51,19.0,376,Employed,Single,Payment Reminder,1,5,False,2021-03-20
+408206,44,Female,97269,Auto,173917,0.1,18,10.0,546,Employed,Single,Loan Restructuring,9,3,False,2019-02-03
+554569,27,Male,69204,Student,377490,0.09,27,9.0,807,Unemployed,Single,Loan Restructuring,5,1,False,2021-07-11
+320809,31,Male,99741,Student,457138,0.16,43,16.0,755,Unemployed,Single,Payment Reminder,0,0,False,2023-06-29
+239454,54,Male,168954,Student,22286,0.15,33,15.0,584,Unemployed,Single,Payment Reminder,0,0,False,2023-02-04
+921305,38,Female,155777,Personal,160458,0.14,23,14.000000000000002,703,Unemployed,Married,Loan Restructuring,0,0,False,2021-11-20
+573196,31,Male,135512,Auto,416552,0.2,44,20.0,704,Employed,Single,Debt Consolidation,12,3,False,2022-10-03
+515854,49,Male,141524,Home,411670,0.18,55,18.0,795,Self-employed,Divorced,Payment Reminder,2,6,True,2018-04-03
+752613,46,Male,69998,Student,484514,0.09,47,9.0,666,Employed,Married,Refinancing,5,9,True,2023-05-08
+406436,40,Female,138139,Auto,483512,0.12,13,12.0,791,Unemployed,Married,Deferment,7,4,True,2023-01-25
+5099,53,Male,179075,Auto,117872,0.11,27,11.0,485,Self-employed,Single,Forbearance,12,4,True,2018-12-22
+541198,21,Male,108935,Business,302664,0.12,31,12.0,321,Employed,Single,Forbearance,1,8,False,2021-04-30
+9683,28,Male,195676,Home,357592,0.19,20,19.0,515,Unemployed,Single,Forbearance,9,1,True,2022-08-23
+651628,48,Male,129068,Business,416682,0.18,39,18.0,504,Employed,Single,Forbearance,1,11,False,2023-12-04
+723882,38,Male,33335,Student,298296,0.05,16,5.0,492,Employed,Divorced,Refinancing,9,12,True,2021-10-18
+945383,53,Male,29163,Personal,196277,0.19,28,19.0,624,Self-employed,Single,Loan Restructuring,9,12,False,2019-12-27
+402320,33,Male,66792,Personal,240693,0.16,33,16.0,417,Unemployed,Single,Loan Restructuring,10,11,True,2021-01-29
+420213,29,Male,145409,Home,239654,0.08,53,8.0,446,Unemployed,Married,Loan Restructuring,6,6,False,2020-04-19
+193796,30,Male,104283,Home,32232,0.16,53,16.0,768,Self-employed,Divorced,Forbearance,11,11,True,2018-05-02
+410071,29,Female,173453,Business,310736,0.1,12,10.0,698,Employed,Single,Deferment,6,3,False,2022-02-13
+144321,61,Female,32955,Personal,421590,0.06,31,6.0,311,Unemployed,Divorced,Payment Reminder,3,2,True,2020-12-01
+9296,46,Male,114525,Personal,40784,0.13,14,13.0,742,Employed,Divorced,Debt Consolidation,2,11,False,2023-03-03
+968030,36,Female,63685,Student,397751,0.12,22,12.0,492,Self-employed,Single,Loan Restructuring,0,0,True,2020-07-10
+692763,64,Male,189868,Personal,397764,0.09,31,9.0,573,Employed,Divorced,Debt Consolidation,7,9,False,2023-06-18
+653515,43,Female,160783,Auto,182065,0.1,39,10.0,607,Unemployed,Single,Deferment,5,7,True,2019-04-29
+718687,28,Female,188296,Personal,352176,0.13,34,13.0,629,Self-employed,Married,Deferment,2,11,False,2019-03-06
+84529,64,Female,116079,Student,216364,0.19,17,19.0,460,Unemployed,Divorced,Deferment,4,9,True,2020-03-01
+238161,39,Female,51501,Business,40076,0.2,41,20.0,372,Self-employed,Married,Refinancing,9,11,True,2021-08-18
+694475,50,Male,176683,Business,137611,0.08,52,8.0,850,Unemployed,Married,Loan Restructuring,3,6,False,2023-12-27
+393506,44,Male,166134,Personal,88393,0.2,48,20.0,301,Employed,Married,Payment Reminder,12,5,False,2023-02-23
+829546,47,Female,147048,Home,369052,0.07,40,7.000000000000001,587,Self-employed,Single,Deferment,2,3,True,2018-11-02
+841519,40,Male,84751,Personal,451648,0.09,50,9.0,738,Unemployed,Married,Deferment,6,4,True,2018-12-26
+107237,28,Female,38276,Student,487155,0.1,30,10.0,501,Unemployed,Divorced,Forbearance,4,6,False,2019-05-14
+108025,45,Male,110430,Student,277710,0.12,13,12.0,303,Self-employed,Single,Deferment,10,5,True,2023-10-18
+79090,56,Female,47667,Personal,272792,0.09,27,9.0,697,Employed,Divorced,Loan Restructuring,3,10,True,2020-03-05
+118925,30,Male,76040,Student,185980,0.07,46,7.000000000000001,445,Employed,Married,Forbearance,0,0,True,2024-01-02
+583638,51,Female,120056,Student,260853,0.16,48,16.0,328,Self-employed,Divorced,Debt Consolidation,4,7,False,2018-11-05
+746813,43,Male,169387,Personal,287233,0.05,35,5.0,331,Self-employed,Single,Deferment,3,10,True,2023-11-23
+727388,24,Female,52865,Student,286901,0.06,50,6.0,832,Self-employed,Married,Deferment,9,3,True,2019-12-22
+281268,36,Male,183015,Personal,128778,0.06,31,6.0,720,Self-employed,Divorced,Loan Restructuring,10,10,False,2019-12-22
+645578,19,Male,96036,Auto,478181,0.11,41,11.0,570,Unemployed,Divorced,Deferment,5,12,True,2021-07-29
+204678,26,Male,79793,Home,80446,0.18,23,18.0,737,Self-employed,Married,Refinancing,9,8,False,2021-12-17
+386592,29,Female,43946,Business,192668,0.14,45,14.000000000000002,423,Unemployed,Married,Forbearance,12,7,False,2024-01-22
+32404,32,Male,180433,Personal,187294,0.2,41,20.0,337,Employed,Divorced,Debt Consolidation,7,2,True,2022-12-31
+202254,32,Female,173375,Home,139139,0.07,46,7.000000000000001,618,Self-employed,Married,Deferment,0,0,False,2019-11-28
+395849,40,Male,107079,Student,292023,0.16,42,16.0,749,Self-employed,Divorced,Forbearance,8,2,True,2022-07-14
+103966,36,Female,35997,Personal,147213,0.14,36,14.000000000000002,383,Self-employed,Divorced,Forbearance,6,9,False,2019-11-29
+270704,43,Female,25552,Business,485582,0.15,54,15.0,451,Self-employed,Single,Deferment,10,2,False,2023-06-20
+333554,61,Female,48480,Home,214125,0.06,36,6.0,370,Unemployed,Married,Debt Consolidation,4,2,False,2021-12-27
+229593,65,Male,76943,Student,188091,0.14,30,14.000000000000002,306,Unemployed,Single,Forbearance,4,12,True,2019-09-18
+247673,45,Female,55894,Home,355125,0.05,41,5.0,470,Unemployed,Divorced,Payment Reminder,5,5,True,2023-05-04
+808628,49,Male,99249,Personal,469213,0.12,50,12.0,347,Unemployed,Divorced,Debt Consolidation,6,3,True,2019-08-25
+634444,63,Male,118646,Home,227169,0.11,26,11.0,466,Self-employed,Divorced,Deferment,9,12,True,2021-06-14
+300036,23,Female,124799,Student,261613,0.11,28,11.0,347,Self-employed,Married,Payment Reminder,11,1,True,2020-05-23
+775219,59,Female,45349,Student,20058,0.13,12,13.0,591,Unemployed,Single,Loan Restructuring,8,7,True,2018-05-26
+265952,60,Male,43588,Home,130216,0.07,22,7.000000000000001,588,Employed,Married,Deferment,1,3,False,2020-11-17
+456861,28,Female,181183,Home,373355,0.09,33,9.0,769,Self-employed,Single,Payment Reminder,7,2,True,2022-03-13
+582520,60,Female,181489,Personal,488455,0.13,19,13.0,781,Unemployed,Divorced,Payment Reminder,4,12,True,2023-05-30
+403059,20,Male,100092,Home,277792,0.2,13,20.0,788,Employed,Divorced,Deferment,4,3,False,2021-01-18
+140506,24,Female,95395,Home,174438,0.17,27,17.0,325,Employed,Married,Deferment,10,2,True,2020-03-14
+777495,27,Female,146606,Business,81718,0.09,21,9.0,420,Employed,Married,Refinancing,0,0,True,2019-09-24
+956462,60,Female,56106,Auto,385994,0.2,38,20.0,624,Self-employed,Married,Deferment,11,6,False,2018-12-16
+135401,24,Male,117132,Business,438774,0.19,36,19.0,706,Unemployed,Married,Refinancing,0,0,True,2020-02-06
+165730,54,Female,97847,Business,201905,0.06,35,6.0,838,Employed,Divorced,Debt Consolidation,2,8,False,2018-02-09
+510339,30,Male,125905,Student,204699,0.05,20,5.0,804,Unemployed,Married,Refinancing,4,1,True,2023-09-11
+581489,31,Male,85799,Student,152690,0.19,59,19.0,329,Unemployed,Divorced,Forbearance,0,0,True,2019-10-03
+256488,30,Female,183379,Home,334222,0.11,60,11.0,778,Unemployed,Single,Deferment,5,2,False,2024-01-28
+802623,55,Male,150727,Business,44530,0.13,24,13.0,779,Self-employed,Married,Refinancing,8,7,False,2023-01-30
+779759,18,Male,129405,Student,380506,0.15,36,15.0,420,Employed,Single,Deferment,2,1,False,2018-01-11
+298009,64,Female,154800,Home,10627,0.15,54,15.0,366,Self-employed,Single,Debt Consolidation,4,12,False,2021-09-05
+224961,23,Male,65278,Auto,144111,0.06,59,6.0,312,Employed,Single,Loan Restructuring,10,3,True,2021-04-17
+884152,32,Male,172555,Home,47043,0.18,16,18.0,709,Self-employed,Divorced,Loan Restructuring,1,9,True,2023-05-10
+800914,58,Female,153563,Student,293554,0.1,50,10.0,666,Self-employed,Single,Loan Restructuring,8,3,False,2023-08-26
+851426,21,Male,25762,Student,355186,0.08,39,8.0,668,Self-employed,Married,Refinancing,7,10,False,2023-07-04
+638524,33,Female,108808,Home,350391,0.15,12,15.0,484,Employed,Married,Forbearance,10,12,True,2021-02-03
+15678,57,Male,108630,Personal,264764,0.14,12,14.000000000000002,464,Unemployed,Single,Payment Reminder,10,6,True,2018-08-21
+228621,42,Female,85817,Home,129072,0.11,14,11.0,706,Self-employed,Single,Deferment,8,4,True,2023-09-13
+25885,51,Female,189410,Personal,496229,0.05,58,5.0,717,Employed,Married,Forbearance,7,2,True,2021-06-17
+385122,27,Female,195776,Business,175743,0.06,47,6.0,333,Self-employed,Single,Deferment,6,6,False,2019-09-17
+55025,63,Male,151413,Home,454460,0.1,17,10.0,769,Unemployed,Single,Deferment,0,0,False,2021-10-12
+11168,51,Female,133079,Auto,118283,0.05,56,5.0,660,Employed,Married,Refinancing,9,11,False,2018-02-05
+193598,24,Male,20510,Auto,108860,0.1,24,10.0,846,Employed,Married,Forbearance,10,12,False,2020-09-27
+904651,30,Female,103936,Student,371326,0.14,14,14.000000000000002,806,Self-employed,Divorced,Forbearance,3,6,True,2023-04-01
+927820,63,Male,93461,Home,42060,0.1,31,10.0,760,Self-employed,Divorced,Deferment,2,2,False,2023-03-23
+633669,51,Male,150604,Business,481252,0.07,24,7.000000000000001,301,Self-employed,Single,Debt Consolidation,6,2,False,2023-08-11
+26219,44,Male,31171,Student,10565,0.16,16,16.0,426,Employed,Married,Refinancing,12,4,True,2018-11-13
+573259,60,Female,39675,Personal,325992,0.11,16,11.0,373,Employed,Single,Loan Restructuring,10,4,True,2018-04-29
+149758,22,Male,97097,Home,274932,0.07,43,7.000000000000001,401,Employed,Divorced,Forbearance,4,1,False,2021-06-19
+105260,49,Male,80535,Business,403199,0.15,37,15.0,603,Unemployed,Single,Payment Reminder,11,6,False,2020-10-03
+728316,22,Female,94612,Student,432437,0.18,15,18.0,521,Employed,Single,Deferment,4,5,True,2020-10-01
+587991,56,Female,50632,Home,266821,0.11,30,11.0,378,Self-employed,Married,Refinancing,10,5,False,2019-03-06
+503363,47,Female,135165,Auto,472789,0.13,24,13.0,370,Self-employed,Married,Debt Consolidation,2,4,True,2024-02-17
+571383,20,Male,40127,Business,97507,0.05,42,5.0,377,Self-employed,Divorced,Forbearance,9,3,True,2019-09-28
+576566,56,Female,73918,Personal,449745,0.2,21,20.0,346,Employed,Married,Payment Reminder,7,3,True,2020-03-03
+447256,65,Male,83836,Auto,142859,0.14,60,14.000000000000002,520,Self-employed,Single,Debt Consolidation,4,8,True,2023-05-05
+642850,65,Female,146392,Student,475695,0.19,40,19.0,462,Unemployed,Divorced,Loan Restructuring,10,7,True,2022-10-11
+308338,44,Female,150513,Home,214502,0.08,50,8.0,454,Employed,Divorced,Payment Reminder,5,12,True,2022-11-20
+564723,34,Male,127273,Home,47374,0.11,23,11.0,761,Unemployed,Married,Refinancing,8,11,False,2019-11-16
+502798,33,Male,177114,Personal,494946,0.14,13,14.000000000000002,629,Employed,Married,Forbearance,9,11,False,2018-02-04
+443687,53,Male,84902,Home,462097,0.12,18,12.0,432,Self-employed,Single,Debt Consolidation,7,8,True,2021-03-21
+868707,38,Female,134385,Home,233352,0.18,32,18.0,644,Unemployed,Single,Payment Reminder,12,9,True,2024-01-31
+298137,27,Male,158008,Business,168189,0.11,15,11.0,751,Employed,Divorced,Loan Restructuring,9,8,False,2021-11-17
+862157,45,Male,41111,Business,446642,0.07,22,7.000000000000001,743,Unemployed,Single,Forbearance,7,9,True,2021-03-05
+339979,50,Male,170899,Business,59555,0.2,59,20.0,816,Unemployed,Divorced,Refinancing,10,3,True,2021-11-16
+342097,53,Female,23143,Personal,356649,0.19,39,19.0,719,Self-employed,Divorced,Deferment,11,5,True,2021-11-01
+558753,52,Male,120956,Business,22745,0.11,24,11.0,450,Employed,Single,Deferment,3,12,True,2021-03-30
+578490,36,Male,141728,Business,413896,0.05,21,5.0,355,Self-employed,Divorced,Forbearance,4,8,False,2019-03-18
+790472,52,Female,93730,Home,368694,0.09,17,9.0,359,Unemployed,Married,Forbearance,6,2,True,2018-03-29
+839840,46,Female,180340,Auto,410125,0.09,15,9.0,725,Unemployed,Single,Debt Consolidation,7,11,True,2023-06-02
+572823,56,Male,153859,Auto,322061,0.1,33,10.0,498,Unemployed,Married,Refinancing,5,4,False,2020-12-02
+924447,23,Female,101807,Home,171304,0.1,28,10.0,438,Employed,Single,Debt Consolidation,2,12,True,2019-01-04
+260530,60,Male,85776,Business,138515,0.1,48,10.0,363,Unemployed,Single,Refinancing,6,8,False,2023-02-09
+439059,38,Female,165833,Personal,153856,0.06,27,6.0,745,Self-employed,Married,Refinancing,12,3,True,2023-11-20
+338420,23,Female,121442,Business,352822,0.18,57,18.0,470,Self-employed,Divorced,Debt Consolidation,2,6,True,2021-02-12
+715043,27,Male,53113,Business,345358,0.11,25,11.0,423,Unemployed,Single,Loan Restructuring,7,10,False,2023-08-27
+1099,38,Male,104819,Personal,76571,0.16,47,16.0,303,Employed,Single,Refinancing,8,6,False,2023-06-20
+40498,24,Male,41236,Home,178981,0.14,33,14.000000000000002,689,Employed,Married,Payment Reminder,12,10,True,2021-06-18
+358849,65,Female,35527,Student,348573,0.2,23,20.0,421,Employed,Divorced,Refinancing,6,12,False,2018-11-26
+393634,30,Female,57023,Home,183332,0.06,45,6.0,461,Unemployed,Divorced,Loan Restructuring,8,10,True,2020-03-10
+193950,24,Female,127733,Auto,205567,0.2,57,20.0,455,Unemployed,Single,Deferment,7,8,True,2022-02-06
+220439,63,Female,187428,Home,294150,0.1,24,10.0,844,Unemployed,Divorced,Loan Restructuring,5,4,True,2021-02-28
+588959,19,Male,95065,Personal,353263,0.13,38,13.0,731,Employed,Married,Forbearance,9,10,True,2020-09-17
+831950,64,Male,29515,Home,359868,0.16,34,16.0,823,Unemployed,Divorced,Payment Reminder,10,7,False,2020-08-30
+23129,59,Female,128749,Auto,380888,0.18,44,18.0,445,Unemployed,Married,Deferment,8,7,True,2019-04-19
+59376,48,Male,131521,Business,438181,0.15,41,15.0,626,Employed,Divorced,Loan Restructuring,2,4,True,2021-10-09
+25051,64,Male,83758,Personal,48480,0.09,24,9.0,354,Self-employed,Single,Payment Reminder,11,4,False,2019-07-08
+43630,41,Male,84250,Auto,149053,0.1,13,10.0,724,Self-employed,Married,Debt Consolidation,10,10,False,2021-10-09
+133600,59,Male,51642,Student,432494,0.16,15,16.0,671,Unemployed,Married,Payment Reminder,3,9,False,2020-05-18
+796382,64,Male,161290,Student,288152,0.15,54,15.0,734,Self-employed,Married,Loan Restructuring,2,2,False,2021-11-12
+845471,59,Male,23735,Home,46075,0.2,27,20.0,412,Employed,Single,Debt Consolidation,9,9,False,2021-07-25
+172680,47,Female,48688,Auto,175882,0.19,60,19.0,782,Unemployed,Divorced,Forbearance,11,12,False,2021-08-11
+535438,26,Female,44173,Student,410942,0.13,33,13.0,639,Unemployed,Divorced,Deferment,1,7,True,2022-10-12
+520395,60,Female,31884,Business,465615,0.13,49,13.0,671,Self-employed,Divorced,Payment Reminder,11,6,False,2022-10-18
+678808,48,Male,47642,Business,58435,0.17,51,17.0,331,Employed,Married,Refinancing,12,5,True,2022-10-29
+260436,56,Female,122240,Personal,153175,0.1,52,10.0,808,Unemployed,Married,Payment Reminder,6,4,True,2020-06-01
+181675,44,Female,55903,Business,370071,0.07,50,7.000000000000001,848,Employed,Single,Payment Reminder,5,3,False,2019-01-01
+814929,31,Female,98130,Business,423977,0.17,50,17.0,437,Self-employed,Single,Forbearance,4,12,False,2022-08-06
+625823,30,Female,185763,Student,61148,0.06,18,6.0,559,Employed,Married,Deferment,0,0,True,2019-09-03
+310665,37,Female,117169,Student,80486,0.2,24,20.0,559,Employed,Divorced,Payment Reminder,12,1,False,2022-10-27
+53555,23,Male,76740,Personal,384166,0.19,28,19.0,727,Employed,Married,Debt Consolidation,8,8,False,2019-05-09
+270313,50,Female,136643,Auto,284318,0.14,29,14.000000000000002,820,Employed,Single,Debt Consolidation,3,10,True,2020-05-22
+561522,40,Male,38106,Business,171442,0.18,29,18.0,561,Self-employed,Divorced,Deferment,10,5,True,2018-06-12
+999905,64,Female,172866,Business,398111,0.13,25,13.0,598,Unemployed,Divorced,Payment Reminder,0,0,False,2023-01-17
+908491,48,Female,40349,Home,53294,0.1,39,10.0,611,Employed,Divorced,Deferment,11,6,False,2022-01-10
+928286,24,Female,161447,Auto,410005,0.17,53,17.0,666,Employed,Married,Refinancing,0,0,True,2022-09-21
+397627,41,Female,127799,Personal,103076,0.2,42,20.0,400,Self-employed,Single,Forbearance,4,9,True,2020-04-12
+576837,51,Female,143423,Student,426117,0.17,15,17.0,476,Self-employed,Single,Forbearance,7,10,True,2019-06-07
+578895,31,Male,36096,Auto,233441,0.16,53,16.0,371,Unemployed,Divorced,Deferment,1,2,False,2023-11-07
+363305,22,Female,64353,Personal,105558,0.05,37,5.0,658,Employed,Married,Deferment,5,4,True,2020-09-12
+249621,25,Female,71974,Personal,399466,0.19,40,19.0,542,Unemployed,Married,Forbearance,2,9,False,2020-01-11
+587485,24,Male,166835,Home,24392,0.2,19,20.0,742,Employed,Divorced,Debt Consolidation,1,12,False,2019-12-07
+695022,54,Male,118073,Personal,396842,0.09,55,9.0,654,Unemployed,Single,Deferment,10,7,False,2022-05-26
+7464,26,Female,115422,Home,149423,0.18,25,18.0,693,Unemployed,Married,Loan Restructuring,5,2,False,2021-07-30
+356687,59,Female,32383,Auto,416170,0.18,36,18.0,759,Employed,Divorced,Payment Reminder,3,4,True,2018-12-09
+870588,24,Female,91217,Auto,229008,0.07,47,7.000000000000001,769,Employed,Married,Deferment,1,5,False,2021-09-05
+924088,23,Female,161888,Student,325456,0.16,28,16.0,404,Self-employed,Married,Forbearance,8,7,False,2022-02-13
+746836,32,Female,144822,Home,354783,0.1,24,10.0,388,Unemployed,Married,Deferment,5,1,False,2022-02-26
+754712,64,Female,135030,Student,119620,0.2,23,20.0,316,Employed,Divorced,Debt Consolidation,4,4,False,2023-09-15
+952441,60,Male,139316,Student,337111,0.08,35,8.0,716,Employed,Single,Payment Reminder,11,10,True,2020-03-05
+954229,27,Female,178437,Business,272389,0.13,28,13.0,346,Self-employed,Single,Payment Reminder,6,6,True,2022-01-02
+240338,33,Female,166168,Personal,406905,0.19,59,19.0,507,Employed,Married,Forbearance,10,1,True,2023-01-02
+477348,30,Male,145329,Auto,344309,0.18,53,18.0,453,Unemployed,Single,Loan Restructuring,0,0,True,2018-03-12
+578384,25,Male,149842,Student,83350,0.07,43,7.000000000000001,551,Unemployed,Single,Debt Consolidation,12,9,False,2023-05-08
+74124,27,Female,123988,Business,219318,0.08,50,8.0,338,Employed,Divorced,Debt Consolidation,5,6,True,2022-10-12
+590083,29,Male,132372,Student,314281,0.14,53,14.000000000000002,841,Employed,Married,Refinancing,1,6,True,2020-03-09
+883819,51,Female,78955,Student,34324,0.13,44,13.0,584,Employed,Married,Payment Reminder,10,1,True,2020-02-08
+899244,20,Female,134924,Home,281451,0.09,13,9.0,839,Employed,Married,Forbearance,5,2,True,2021-02-28
+79526,52,Male,22841,Business,378753,0.06,55,6.0,443,Unemployed,Divorced,Debt Consolidation,7,3,True,2023-07-06
+997379,33,Male,90388,Auto,249211,0.16,28,16.0,676,Self-employed,Divorced,Refinancing,3,6,False,2023-04-16
+580995,23,Male,50149,Business,181562,0.13,58,13.0,566,Self-employed,Married,Deferment,1,8,True,2021-12-16
+583153,61,Male,119954,Business,344660,0.2,34,20.0,435,Unemployed,Married,Debt Consolidation,9,6,False,2020-04-24
+52714,64,Female,69134,Personal,488131,0.09,34,9.0,485,Unemployed,Divorced,Loan Restructuring,6,3,False,2022-07-14
+355551,32,Female,168160,Business,411485,0.19,42,19.0,429,Unemployed,Single,Debt Consolidation,11,11,False,2018-01-08
+146028,54,Male,59339,Personal,236140,0.17,56,17.0,326,Self-employed,Single,Deferment,12,11,False,2023-06-13
+622083,43,Female,104960,Home,245222,0.06,15,6.0,472,Self-employed,Single,Deferment,10,8,True,2018-03-15
+606046,52,Female,122124,Student,435086,0.1,46,10.0,666,Unemployed,Single,Payment Reminder,8,5,False,2024-02-24
+364372,22,Female,78485,Auto,54170,0.09,42,9.0,467,Self-employed,Divorced,Forbearance,11,11,True,2022-08-19
+354543,57,Female,111630,Auto,130440,0.14,45,14.000000000000002,430,Self-employed,Married,Payment Reminder,12,8,False,2023-03-01
+935697,37,Female,94491,Personal,175850,0.18,32,18.0,391,Self-employed,Married,Refinancing,2,6,True,2024-02-06
+381600,38,Female,40902,Home,48021,0.17,49,17.0,407,Employed,Single,Debt Consolidation,10,2,True,2022-12-17
+207490,46,Male,160722,Business,15642,0.15,13,15.0,677,Employed,Divorced,Payment Reminder,9,1,False,2021-09-01
+549543,35,Male,141354,Business,114797,0.06,56,6.0,438,Unemployed,Single,Forbearance,10,10,False,2019-07-18
+639096,32,Female,85985,Home,335933,0.18,29,18.0,559,Employed,Divorced,Payment Reminder,6,4,True,2021-11-24
+225603,42,Female,74108,Personal,62201,0.11,38,11.0,434,Employed,Married,Refinancing,2,3,True,2023-10-31
+58037,37,Male,104351,Business,130562,0.06,38,6.0,610,Unemployed,Single,Debt Consolidation,9,5,True,2022-04-02
+424179,31,Male,170924,Home,113446,0.13,31,13.0,680,Unemployed,Single,Payment Reminder,8,5,False,2020-02-21
+47867,65,Male,38806,Business,499494,0.17,19,17.0,530,Employed,Divorced,Forbearance,3,4,False,2020-12-31
+156305,44,Male,161031,Personal,195680,0.18,41,18.0,352,Self-employed,Divorced,Payment Reminder,9,10,True,2018-03-14
+428575,64,Male,145150,Auto,499640,0.12,44,12.0,668,Self-employed,Single,Payment Reminder,4,1,False,2020-11-25
+425374,27,Male,125219,Personal,292126,0.2,29,20.0,315,Unemployed,Single,Forbearance,3,2,True,2022-01-02
+976413,26,Male,166888,Home,176080,0.07,17,7.000000000000001,823,Unemployed,Divorced,Loan Restructuring,9,6,True,2024-01-28
+336482,19,Female,99349,Auto,329256,0.18,38,18.0,598,Employed,Married,Forbearance,6,6,True,2020-04-19
+737734,64,Male,118350,Business,486654,0.18,44,18.0,490,Unemployed,Divorced,Loan Restructuring,12,5,False,2023-12-01
+521393,30,Female,89532,Home,197261,0.18,35,18.0,809,Employed,Single,Forbearance,5,1,True,2018-09-16
+732654,26,Female,194727,Home,489195,0.2,47,20.0,580,Self-employed,Single,Forbearance,11,3,True,2019-10-11
+344884,54,Female,101979,Home,175562,0.07,45,7.000000000000001,456,Self-employed,Divorced,Loan Restructuring,5,7,True,2022-08-09
+181084,56,Male,54416,Home,163470,0.19,43,19.0,761,Self-employed,Single,Payment Reminder,2,7,False,2019-07-14
+495666,55,Male,97819,Auto,308184,0.07,41,7.000000000000001,409,Self-employed,Single,Deferment,9,10,False,2018-07-29
+669171,64,Male,107524,Home,329399,0.18,60,18.0,342,Self-employed,Married,Forbearance,6,7,True,2018-09-09
+626855,19,Male,27242,Student,446518,0.19,36,19.0,509,Self-employed,Single,Deferment,9,9,True,2023-05-17
+812960,22,Male,128304,Business,42662,0.08,46,8.0,517,Self-employed,Divorced,Loan Restructuring,10,10,True,2021-05-04
+896075,19,Female,102749,Student,344648,0.1,59,10.0,736,Self-employed,Single,Refinancing,10,12,True,2023-05-02
+72997,48,Male,75050,Personal,405828,0.05,51,5.0,454,Unemployed,Single,Forbearance,4,1,True,2023-02-01
+859876,27,Male,109778,Auto,234398,0.15,16,15.0,394,Self-employed,Divorced,Debt Consolidation,6,9,False,2019-01-16
+689951,41,Male,136516,Home,308062,0.14,48,14.000000000000002,581,Employed,Single,Debt Consolidation,7,11,True,2022-11-08
+198870,22,Female,105091,Student,397630,0.2,48,20.0,524,Unemployed,Single,Deferment,4,2,False,2021-11-06
+615817,37,Female,179305,Auto,224588,0.1,60,10.0,526,Employed,Single,Loan Restructuring,5,1,True,2020-01-31
+892440,41,Female,99195,Student,226863,0.08,21,8.0,305,Unemployed,Married,Deferment,5,11,True,2018-01-20
+986075,33,Female,184587,Personal,147952,0.14,13,14.000000000000002,697,Unemployed,Married,Deferment,12,5,False,2018-05-03
+711526,51,Female,178858,Personal,14688,0.15,12,15.0,661,Employed,Married,Debt Consolidation,10,9,True,2023-02-19
+700363,35,Male,190114,Business,234486,0.09,42,9.0,604,Self-employed,Single,Loan Restructuring,1,4,True,2021-12-24
+556547,20,Female,98327,Student,447148,0.16,56,16.0,489,Employed,Single,Payment Reminder,9,2,False,2018-09-10
+529777,28,Male,42477,Student,494345,0.18,42,18.0,359,Self-employed,Divorced,Refinancing,7,8,True,2018-01-05
+507742,39,Female,169699,Personal,489383,0.18,51,18.0,737,Employed,Divorced,Forbearance,2,2,True,2021-02-09
+864857,40,Female,39500,Personal,338648,0.15,12,15.0,824,Self-employed,Married,Refinancing,5,10,False,2020-04-21
+4471,21,Female,182989,Home,36167,0.2,49,20.0,676,Employed,Divorced,Forbearance,1,1,True,2020-04-03
+419198,52,Male,142256,Personal,439087,0.14,14,14.000000000000002,341,Unemployed,Divorced,Loan Restructuring,11,6,True,2022-04-29
+645864,57,Male,69236,Auto,40560,0.2,30,20.0,316,Self-employed,Single,Forbearance,12,5,True,2020-12-04
+637344,22,Male,101225,Auto,413826,0.05,16,5.0,612,Unemployed,Divorced,Loan Restructuring,12,11,True,2018-05-01
+263104,51,Female,145547,Personal,288927,0.11,38,11.0,481,Unemployed,Married,Forbearance,8,11,True,2019-01-01
+952828,55,Male,146610,Student,67990,0.1,60,10.0,567,Self-employed,Married,Loan Restructuring,9,10,False,2023-02-25
+341358,19,Female,45071,Business,346755,0.06,56,6.0,562,Unemployed,Married,Payment Reminder,9,10,False,2020-12-13
+590160,46,Female,117827,Business,249124,0.19,50,19.0,597,Self-employed,Married,Refinancing,4,5,False,2024-02-02
+366814,20,Male,144220,Business,72374,0.05,39,5.0,745,Unemployed,Married,Loan Restructuring,9,8,True,2020-09-18
+937209,28,Male,147604,Business,143292,0.15,37,15.0,443,Unemployed,Married,Deferment,0,0,False,2022-12-17
+38207,27,Male,128096,Home,459568,0.14,25,14.000000000000002,451,Unemployed,Divorced,Payment Reminder,11,12,False,2021-11-13
+400875,24,Female,149891,Auto,456319,0.19,21,19.0,847,Self-employed,Single,Loan Restructuring,4,10,True,2023-10-13
+168316,45,Male,174043,Personal,278459,0.13,15,13.0,521,Self-employed,Single,Payment Reminder,10,8,True,2020-09-21
+469737,29,Male,166166,Home,457058,0.16,24,16.0,826,Unemployed,Single,Debt Consolidation,3,7,False,2020-01-20
+564430,53,Male,153379,Home,253972,0.06,51,6.0,474,Unemployed,Married,Deferment,11,11,False,2023-09-29
+342709,53,Male,46721,Business,464824,0.2,44,20.0,815,Self-employed,Divorced,Debt Consolidation,5,8,True,2018-06-20
+210144,41,Female,167366,Personal,494605,0.07,30,7.000000000000001,385,Unemployed,Single,Debt Consolidation,12,10,False,2018-09-05
+17463,27,Male,34763,Auto,345683,0.06,36,6.0,362,Unemployed,Single,Refinancing,7,7,True,2018-07-14
+391565,45,Female,91598,Home,88305,0.19,35,19.0,798,Unemployed,Married,Deferment,6,6,False,2020-03-07
+13955,37,Male,145984,Student,164804,0.15,53,15.0,615,Employed,Single,Deferment,4,9,False,2018-08-26
+647064,26,Female,156017,Student,297742,0.1,35,10.0,317,Unemployed,Married,Forbearance,5,11,True,2023-04-05
+675345,36,Female,115566,Business,466044,0.15,19,15.0,627,Employed,Single,Loan Restructuring,0,0,False,2022-10-15
+925903,32,Male,42820,Home,144974,0.08,57,8.0,530,Self-employed,Married,Debt Consolidation,9,12,False,2019-11-03
+758827,35,Male,40322,Business,441948,0.08,19,8.0,466,Self-employed,Divorced,Deferment,3,12,False,2023-07-12
+294344,61,Male,129582,Business,467481,0.17,54,17.0,428,Employed,Single,Debt Consolidation,6,6,False,2019-05-04
+324177,50,Male,119060,Student,206248,0.18,38,18.0,637,Self-employed,Divorced,Refinancing,8,4,True,2023-11-26
+598712,52,Female,76217,Auto,241057,0.15,20,15.0,616,Employed,Married,Forbearance,12,7,True,2018-08-28
+499778,50,Male,92149,Auto,169723,0.16,27,16.0,627,Employed,Divorced,Payment Reminder,9,8,True,2020-08-11
+572368,29,Male,137818,Business,191890,0.09,38,9.0,437,Unemployed,Married,Debt Consolidation,0,0,True,2020-02-10
+798333,56,Male,24413,Auto,161519,0.15,49,15.0,461,Employed,Divorced,Payment Reminder,11,1,False,2018-06-18
+124886,32,Male,35563,Personal,311719,0.13,25,13.0,818,Employed,Married,Loan Restructuring,0,0,False,2019-08-11
+451795,46,Male,36247,Student,290704,0.18,43,18.0,633,Self-employed,Single,Forbearance,5,12,True,2019-07-24
+662172,35,Female,38093,Personal,362711,0.06,22,6.0,621,Unemployed,Married,Debt Consolidation,4,12,True,2019-12-05
+121876,31,Female,111612,Business,342099,0.09,60,9.0,452,Employed,Divorced,Refinancing,5,10,True,2024-02-26
+876443,44,Male,132757,Student,389684,0.1,44,10.0,502,Employed,Divorced,Deferment,3,12,False,2020-01-15
+323167,31,Female,83934,Personal,193920,0.14,13,14.000000000000002,822,Unemployed,Divorced,Debt Consolidation,6,3,False,2023-07-18
+142588,58,Male,169634,Business,352297,0.16,17,16.0,615,Employed,Single,Payment Reminder,6,6,True,2021-12-19
+98378,24,Female,64752,Home,357293,0.17,37,17.0,474,Self-employed,Married,Forbearance,4,11,False,2019-05-27
+841751,29,Male,100777,Student,305334,0.14,59,14.000000000000002,839,Unemployed,Single,Loan Restructuring,12,12,False,2022-03-28
+641277,53,Male,123375,Personal,250820,0.15,47,15.0,650,Employed,Single,Refinancing,5,1,True,2019-08-06
+707016,37,Male,173477,Business,416756,0.18,15,18.0,735,Self-employed,Single,Refinancing,10,7,False,2023-03-01
+449225,58,Male,195660,Business,370863,0.05,47,5.0,650,Self-employed,Divorced,Refinancing,4,1,False,2020-04-16
+995332,51,Female,42272,Auto,154322,0.12,43,12.0,513,Employed,Single,Payment Reminder,6,11,True,2024-01-02
+810882,45,Male,143890,Auto,161459,0.07,33,7.000000000000001,569,Unemployed,Married,Refinancing,7,8,False,2019-12-17
+570741,34,Female,102722,Auto,19866,0.14,43,14.000000000000002,633,Employed,Married,Debt Consolidation,0,0,False,2021-10-26
+423718,65,Female,96852,Home,219425,0.09,37,9.0,345,Employed,Married,Loan Restructuring,1,5,True,2019-05-20
+892452,22,Male,64701,Auto,238483,0.05,45,5.0,602,Unemployed,Divorced,Deferment,2,10,True,2020-03-14
+873596,52,Male,50138,Home,75222,0.19,59,19.0,389,Unemployed,Single,Deferment,6,12,False,2020-07-19
+400775,34,Female,193776,Student,441964,0.13,15,13.0,529,Employed,Divorced,Forbearance,7,4,False,2024-02-26
+371181,30,Female,99069,Student,440159,0.08,25,8.0,747,Unemployed,Divorced,Payment Reminder,7,3,False,2021-04-23
+532384,35,Female,43057,Personal,278633,0.06,27,6.0,716,Employed,Divorced,Debt Consolidation,5,12,False,2020-12-13
+127321,40,Male,136854,Student,67069,0.15,50,15.0,593,Employed,Divorced,Debt Consolidation,5,1,True,2018-03-06
+57595,20,Female,124371,Home,304958,0.14,27,14.000000000000002,439,Employed,Single,Refinancing,6,4,True,2020-01-22
+551464,58,Male,59882,Auto,89297,0.15,18,15.0,368,Unemployed,Married,Payment Reminder,8,9,True,2022-08-07
+955894,34,Male,195772,Personal,275069,0.19,17,19.0,553,Unemployed,Married,Debt Consolidation,9,2,False,2020-09-04
+455136,27,Female,168416,Business,312125,0.1,33,10.0,802,Self-employed,Single,Payment Reminder,4,2,False,2018-10-02
+373394,28,Female,66517,Personal,164811,0.18,30,18.0,373,Self-employed,Single,Refinancing,4,8,True,2019-08-27
+642928,19,Female,127574,Student,37836,0.19,40,19.0,785,Employed,Married,Deferment,11,7,True,2022-07-10
+582485,61,Male,62430,Student,403719,0.1,43,10.0,674,Self-employed,Married,Forbearance,7,4,False,2020-12-29
+939770,29,Female,59901,Personal,328885,0.16,12,16.0,303,Unemployed,Single,Payment Reminder,10,4,False,2021-11-07
+213889,33,Male,41096,Auto,147850,0.11,34,11.0,791,Unemployed,Divorced,Refinancing,1,3,True,2022-09-25
+779794,31,Female,181534,Student,68612,0.08,21,8.0,650,Employed,Married,Debt Consolidation,2,10,True,2018-10-27
+963158,38,Male,64854,Personal,43733,0.17,48,17.0,772,Self-employed,Married,Deferment,3,2,True,2020-09-02
+418484,39,Female,158124,Home,103470,0.18,58,18.0,526,Employed,Divorced,Payment Reminder,0,0,True,2022-05-14
+129439,36,Male,143525,Home,234427,0.05,23,5.0,524,Unemployed,Married,Debt Consolidation,8,12,True,2020-01-29
+42945,52,Male,108556,Personal,180355,0.2,60,20.0,829,Self-employed,Married,Debt Consolidation,8,8,True,2022-09-12
+546521,34,Female,95572,Personal,465843,0.09,32,9.0,706,Employed,Divorced,Refinancing,11,3,False,2020-05-11
+305483,44,Female,179059,Student,350963,0.15,48,15.0,652,Self-employed,Divorced,Forbearance,6,4,True,2018-01-31
+159866,49,Male,139151,Business,348271,0.14,56,14.000000000000002,655,Unemployed,Divorced,Loan Restructuring,12,4,False,2023-11-10
+913580,33,Female,65835,Student,281240,0.16,13,16.0,370,Employed,Single,Deferment,1,11,False,2021-07-20
+97520,60,Female,94985,Student,448929,0.08,12,8.0,392,Unemployed,Single,Forbearance,0,0,False,2018-08-28
+173798,55,Male,174885,Student,57977,0.2,20,20.0,434,Employed,Single,Deferment,0,0,True,2020-01-09
+10118,28,Female,83205,Business,284679,0.14,15,14.000000000000002,523,Self-employed,Married,Loan Restructuring,0,0,True,2023-07-29
+363037,62,Male,156351,Auto,422482,0.2,20,20.0,341,Self-employed,Married,Loan Restructuring,11,4,False,2021-04-09
+21659,29,Female,66527,Home,380971,0.17,12,17.0,624,Self-employed,Divorced,Loan Restructuring,6,11,True,2023-05-31
+261448,63,Female,148585,Auto,276336,0.18,44,18.0,705,Employed,Single,Forbearance,2,5,False,2019-12-02
+103506,31,Female,152490,Home,126508,0.11,34,11.0,712,Self-employed,Single,Forbearance,1,2,True,2019-10-25
+338850,19,Male,106126,Business,197250,0.16,18,16.0,610,Unemployed,Married,Deferment,5,10,True,2023-07-10
+325462,18,Male,103710,Auto,209262,0.06,53,6.0,513,Employed,Single,Refinancing,1,8,False,2022-02-28
+643671,36,Male,33991,Business,301045,0.05,59,5.0,736,Self-employed,Divorced,Refinancing,2,6,False,2021-07-07
+681930,41,Female,79667,Business,275803,0.05,29,5.0,583,Self-employed,Single,Refinancing,7,3,True,2021-01-18
+278476,43,Female,98840,Home,408292,0.11,60,11.0,663,Employed,Divorced,Deferment,3,4,False,2018-12-25
+138713,59,Male,80697,Personal,316108,0.05,14,5.0,763,Unemployed,Single,Payment Reminder,11,1,False,2018-09-28
+428271,43,Male,28647,Student,254276,0.19,56,19.0,647,Unemployed,Single,Deferment,4,8,False,2020-03-26
+641396,32,Female,93401,Business,498752,0.05,38,5.0,479,Employed,Married,Payment Reminder,4,7,False,2024-01-25
+140542,44,Female,149915,Auto,52141,0.09,42,9.0,532,Employed,Divorced,Refinancing,3,8,False,2020-09-12
+544974,19,Male,199873,Business,467913,0.17,59,17.0,574,Self-employed,Divorced,Deferment,8,3,True,2019-06-09
+810560,47,Male,77153,Student,415710,0.05,22,5.0,573,Self-employed,Single,Forbearance,7,11,False,2018-05-15
+854472,60,Male,121756,Auto,288361,0.17,55,17.0,776,Self-employed,Married,Loan Restructuring,3,10,False,2018-10-02
+730143,44,Male,132598,Auto,150163,0.14,50,14.000000000000002,643,Employed,Divorced,Debt Consolidation,1,5,True,2018-02-09
+151927,18,Male,97595,Business,482139,0.07,51,7.000000000000001,539,Unemployed,Married,Deferment,3,1,True,2018-11-27
+182138,28,Female,154678,Personal,29746,0.19,21,19.0,585,Self-employed,Divorced,Loan Restructuring,4,2,True,2021-12-05
+323489,40,Male,26743,Business,407631,0.16,39,16.0,396,Employed,Single,Loan Restructuring,10,7,False,2021-06-07
+971833,49,Male,31549,Home,483056,0.13,16,13.0,518,Self-employed,Married,Deferment,5,3,True,2018-04-02
+691827,65,Female,183039,Home,358006,0.17,37,17.0,807,Unemployed,Divorced,Forbearance,4,3,False,2021-02-02
+422024,62,Male,111506,Home,205211,0.15,22,15.0,687,Employed,Divorced,Loan Restructuring,11,12,False,2018-03-27
+868952,40,Female,116836,Home,269094,0.19,31,19.0,344,Employed,Married,Debt Consolidation,9,3,False,2020-12-29
+372958,60,Male,140365,Home,409403,0.05,16,5.0,428,Unemployed,Divorced,Deferment,1,11,True,2020-11-18
+613980,57,Male,143205,Personal,318970,0.19,32,19.0,799,Self-employed,Divorced,Debt Consolidation,8,8,True,2022-07-02
+771832,50,Male,192988,Personal,464519,0.13,19,13.0,331,Self-employed,Single,Forbearance,10,7,True,2020-04-28
+703653,42,Male,97051,Auto,491554,0.19,56,19.0,556,Unemployed,Single,Deferment,6,12,False,2021-07-29
+454377,37,Male,70069,Home,291841,0.08,60,8.0,828,Self-employed,Married,Loan Restructuring,8,5,False,2021-10-09
+649319,63,Female,49383,Auto,300753,0.17,55,17.0,319,Unemployed,Married,Payment Reminder,9,3,False,2018-10-28
+694682,43,Male,161732,Home,471205,0.06,40,6.0,635,Unemployed,Married,Refinancing,5,9,False,2019-08-07
+283090,49,Female,101830,Personal,130822,0.17,13,17.0,351,Unemployed,Divorced,Refinancing,7,1,False,2019-06-08
+564314,65,Female,185361,Business,358319,0.09,19,9.0,358,Unemployed,Divorced,Loan Restructuring,12,3,True,2020-02-05
+815553,24,Female,139851,Student,269529,0.07,45,7.000000000000001,704,Self-employed,Married,Loan Restructuring,12,6,False,2021-06-18
+634883,58,Male,28015,Home,16070,0.05,35,5.0,784,Employed,Single,Debt Consolidation,9,4,False,2022-01-15
+639465,23,Female,166487,Auto,341635,0.2,47,20.0,846,Unemployed,Divorced,Payment Reminder,0,0,False,2023-06-15
+486222,65,Male,155837,Home,292985,0.07,54,7.000000000000001,715,Employed,Divorced,Debt Consolidation,11,9,False,2022-12-10
+464712,24,Male,142694,Business,234820,0.2,35,20.0,683,Self-employed,Married,Loan Restructuring,10,2,True,2021-02-28
+507614,18,Male,46987,Student,370396,0.19,27,19.0,553,Self-employed,Single,Refinancing,1,5,False,2022-10-30
+645855,56,Male,34376,Business,145248,0.07,17,7.000000000000001,770,Employed,Married,Payment Reminder,7,8,True,2022-07-01
+119722,33,Female,50460,Home,291807,0.06,20,6.0,551,Unemployed,Divorced,Refinancing,0,0,False,2019-09-09
+881762,26,Male,155194,Personal,80860,0.1,17,10.0,369,Self-employed,Married,Forbearance,12,1,True,2019-10-16
+218215,24,Male,129751,Personal,285669,0.11,57,11.0,510,Unemployed,Married,Deferment,7,10,False,2020-06-19
+476976,24,Female,114821,Business,177583,0.17,46,17.0,508,Unemployed,Single,Payment Reminder,10,6,False,2021-04-29
+381115,37,Female,60651,Auto,134874,0.06,49,6.0,814,Unemployed,Married,Loan Restructuring,11,7,True,2018-05-18
+210052,65,Female,103601,Business,266777,0.09,35,9.0,453,Unemployed,Married,Refinancing,8,1,True,2022-08-02
+793654,22,Male,61370,Auto,310433,0.06,40,6.0,818,Employed,Married,Loan Restructuring,0,0,False,2021-03-18
+88362,19,Female,45903,Home,53611,0.16,56,16.0,319,Employed,Married,Payment Reminder,12,12,True,2021-05-06
+779663,24,Female,133494,Business,427248,0.05,51,5.0,428,Employed,Single,Loan Restructuring,6,5,False,2020-09-17
+77629,26,Female,125095,Business,297825,0.1,39,10.0,423,Unemployed,Single,Loan Restructuring,10,1,False,2019-07-26
+445592,21,Male,132056,Personal,417176,0.14,23,14.000000000000002,396,Employed,Single,Refinancing,11,4,True,2023-10-14
+194111,37,Male,120643,Business,168907,0.14,51,14.000000000000002,815,Unemployed,Single,Forbearance,10,4,False,2021-03-21
+964418,33,Male,107453,Home,80113,0.13,16,13.0,331,Unemployed,Single,Deferment,4,9,True,2019-08-10
+336738,42,Female,70243,Personal,170248,0.16,39,16.0,441,Unemployed,Divorced,Debt Consolidation,10,7,False,2023-12-21
+666626,20,Female,120450,Auto,391995,0.06,52,6.0,500,Self-employed,Divorced,Deferment,4,5,True,2021-06-10
+76247,42,Male,174022,Personal,336795,0.15,29,15.0,799,Unemployed,Single,Forbearance,1,9,True,2021-07-31
+979609,37,Male,178247,Personal,487568,0.12,34,12.0,560,Employed,Single,Loan Restructuring,12,1,False,2022-10-18
+852120,41,Female,26102,Home,84078,0.09,48,9.0,829,Self-employed,Married,Payment Reminder,8,7,True,2020-02-09
+774062,42,Male,169417,Student,498454,0.15,25,15.0,411,Self-employed,Divorced,Loan Restructuring,2,4,False,2019-08-24
+267290,33,Male,160633,Student,67056,0.09,53,9.0,739,Unemployed,Married,Refinancing,1,6,True,2019-07-21
+457723,62,Female,51597,Home,197735,0.17,43,17.0,516,Unemployed,Married,Payment Reminder,9,6,False,2019-11-10
+37926,44,Female,33699,Personal,438861,0.15,38,15.0,537,Unemployed,Single,Refinancing,4,12,False,2019-12-03
+10947,29,Male,148897,Student,239410,0.06,33,6.0,339,Self-employed,Married,Payment Reminder,6,9,False,2019-08-21
+643302,27,Female,156676,Personal,422445,0.1,56,10.0,553,Employed,Divorced,Forbearance,11,8,False,2021-01-16
+960286,44,Male,57360,Business,153014,0.1,32,10.0,768,Employed,Married,Loan Restructuring,12,12,False,2020-10-03
+195788,38,Female,173305,Personal,232057,0.2,46,20.0,321,Self-employed,Married,Deferment,0,0,False,2022-10-11
+51402,41,Female,64111,Auto,117999,0.08,27,8.0,372,Unemployed,Divorced,Debt Consolidation,6,3,False,2023-01-17
+986726,30,Male,168836,Student,29272,0.11,50,11.0,722,Employed,Divorced,Forbearance,2,10,False,2019-04-27
+839996,42,Female,149646,Personal,271485,0.2,43,20.0,679,Employed,Married,Deferment,11,3,False,2020-03-16
+583570,19,Female,48380,Student,420699,0.1,16,10.0,472,Employed,Divorced,Loan Restructuring,0,0,False,2021-02-24
+597256,34,Male,67300,Student,399890,0.15,59,15.0,518,Unemployed,Single,Deferment,12,2,True,2021-09-08
+575327,30,Female,96908,Home,351502,0.13,43,13.0,662,Employed,Single,Deferment,0,0,False,2021-09-17
+4902,61,Male,112346,Auto,209894,0.07,22,7.000000000000001,466,Employed,Divorced,Loan Restructuring,1,4,False,2021-11-03
+726580,45,Female,153833,Student,86698,0.13,50,13.0,473,Self-employed,Single,Payment Reminder,3,3,False,2023-03-18
+510702,44,Female,94050,Personal,188874,0.14,35,14.000000000000002,839,Employed,Single,Refinancing,1,10,False,2022-12-19
+39152,44,Female,81739,Home,37459,0.16,22,16.0,823,Employed,Single,Deferment,3,12,False,2020-12-11
+668770,27,Male,40120,Student,424504,0.14,15,14.000000000000002,428,Unemployed,Divorced,Debt Consolidation,0,0,True,2020-01-16
+565629,34,Male,149445,Personal,452441,0.14,14,14.000000000000002,638,Self-employed,Divorced,Payment Reminder,6,11,False,2021-12-01
+618027,40,Male,77316,Student,149542,0.11,33,11.0,716,Self-employed,Divorced,Refinancing,9,6,False,2024-01-02
+566132,53,Male,134290,Student,347589,0.14,41,14.000000000000002,514,Unemployed,Single,Payment Reminder,4,7,False,2024-02-08
+64024,25,Male,116731,Student,460859,0.1,17,10.0,439,Employed,Single,Forbearance,4,6,False,2023-09-29
+693356,54,Male,127040,Student,180093,0.18,37,18.0,768,Employed,Divorced,Forbearance,10,6,False,2019-12-31
+742125,47,Male,127391,Personal,263599,0.2,46,20.0,828,Unemployed,Single,Forbearance,10,9,False,2021-12-18
+100722,22,Female,54979,Auto,313135,0.05,15,5.0,624,Unemployed,Divorced,Loan Restructuring,11,5,False,2021-10-15
+106767,58,Female,55156,Business,489952,0.17,36,17.0,425,Employed,Divorced,Loan Restructuring,2,2,True,2022-02-03
+758056,26,Female,152405,Student,96578,0.16,39,16.0,453,Unemployed,Married,Payment Reminder,2,4,True,2019-09-20
+544078,45,Male,40058,Auto,479475,0.06,29,6.0,693,Employed,Divorced,Refinancing,7,7,False,2020-03-21
+750391,62,Male,145404,Student,90319,0.09,21,9.0,574,Self-employed,Single,Forbearance,2,5,False,2020-07-20
+266095,58,Male,89183,Auto,164499,0.15,24,15.0,374,Unemployed,Divorced,Debt Consolidation,3,5,True,2019-02-28
+999421,31,Male,134639,Business,169626,0.17,51,17.0,637,Unemployed,Divorced,Refinancing,2,12,False,2023-09-06
+646016,26,Female,88743,Student,55524,0.07,35,7.000000000000001,640,Self-employed,Married,Forbearance,10,10,False,2021-05-12
+261215,43,Female,164013,Personal,230928,0.08,20,8.0,517,Unemployed,Married,Debt Consolidation,3,2,False,2024-02-26
+609121,40,Male,124494,Auto,367627,0.19,28,19.0,528,Unemployed,Single,Payment Reminder,8,5,False,2021-04-21
+779559,35,Female,176303,Home,56202,0.13,58,13.0,499,Employed,Single,Forbearance,3,7,True,2022-10-28
+882066,59,Female,93424,Business,475820,0.11,49,11.0,600,Employed,Divorced,Forbearance,8,4,False,2023-03-15
+568314,24,Female,194862,Business,29906,0.15,34,15.0,749,Self-employed,Single,Payment Reminder,9,6,True,2023-07-20
+409359,41,Male,103120,Personal,366885,0.2,32,20.0,574,Self-employed,Divorced,Refinancing,8,8,False,2018-03-28
+497305,37,Female,72415,Business,386228,0.16,48,16.0,428,Unemployed,Married,Forbearance,9,3,True,2020-02-09
+251714,64,Male,168995,Student,255743,0.15,40,15.0,499,Self-employed,Married,Forbearance,7,5,True,2018-03-03
+323908,22,Female,30825,Student,427048,0.12,60,12.0,711,Employed,Single,Loan Restructuring,4,5,True,2021-07-26
+81692,65,Male,141284,Personal,112148,0.15,60,15.0,360,Unemployed,Divorced,Payment Reminder,10,5,False,2018-08-29
+476479,33,Female,37278,Business,43424,0.14,19,14.000000000000002,701,Unemployed,Divorced,Loan Restructuring,0,0,False,2018-04-09
+687714,53,Male,57232,Auto,423327,0.07,53,7.000000000000001,586,Unemployed,Single,Debt Consolidation,10,4,True,2023-12-10
+412235,35,Female,131012,Personal,337594,0.14,52,14.000000000000002,682,Self-employed,Married,Debt Consolidation,2,8,True,2020-07-21
+21365,56,Male,125553,Personal,171314,0.14,52,14.000000000000002,762,Self-employed,Divorced,Loan Restructuring,12,7,False,2021-11-29
+932922,49,Male,32113,Business,462635,0.18,38,18.0,750,Employed,Single,Loan Restructuring,7,11,True,2023-03-21
+18130,43,Female,94711,Home,194843,0.12,54,12.0,335,Employed,Single,Debt Consolidation,4,8,False,2019-01-26
+700111,63,Male,189781,Student,461276,0.09,15,9.0,644,Self-employed,Married,Debt Consolidation,8,8,True,2020-08-12
+169567,30,Female,24870,Home,365654,0.15,48,15.0,540,Unemployed,Single,Debt Consolidation,11,7,False,2021-10-10
+747345,60,Female,92064,Business,150053,0.06,49,6.0,533,Self-employed,Married,Refinancing,8,2,False,2020-07-05
+718557,31,Female,149466,Personal,464023,0.06,49,6.0,689,Employed,Divorced,Refinancing,1,11,True,2022-07-10
+781071,27,Female,175282,Auto,187713,0.2,60,20.0,747,Employed,Married,Loan Restructuring,4,8,True,2019-02-22
+247841,63,Male,113696,Business,121354,0.09,27,9.0,564,Employed,Married,Debt Consolidation,11,5,True,2020-09-12
+625379,35,Female,90908,Auto,185118,0.14,25,14.000000000000002,847,Unemployed,Divorced,Payment Reminder,12,5,False,2019-10-15
+939969,59,Male,130875,Home,338199,0.06,48,6.0,352,Self-employed,Single,Debt Consolidation,11,4,True,2018-11-12
+57996,37,Male,99204,Home,101643,0.11,45,11.0,512,Unemployed,Divorced,Forbearance,6,7,False,2019-01-26
+906054,22,Male,70556,Personal,348335,0.05,22,5.0,839,Unemployed,Married,Debt Consolidation,12,3,True,2018-02-14
+177155,48,Female,163509,Student,11116,0.09,20,9.0,654,Employed,Single,Loan Restructuring,2,3,False,2020-06-15
+885731,22,Female,48921,Home,147387,0.05,38,5.0,474,Unemployed,Divorced,Forbearance,5,1,False,2020-06-23
+632502,51,Male,134470,Personal,22823,0.05,45,5.0,581,Unemployed,Single,Payment Reminder,5,10,True,2022-06-22
+447891,26,Male,67706,Auto,193835,0.05,44,5.0,782,Self-employed,Single,Refinancing,1,3,False,2021-12-24
+367140,62,Female,191778,Personal,254104,0.1,49,10.0,493,Employed,Single,Payment Reminder,10,6,False,2021-10-10
+474534,61,Male,46337,Business,409924,0.14,26,14.000000000000002,733,Self-employed,Single,Payment Reminder,1,2,False,2019-01-30
+412275,33,Male,158872,Business,176826,0.05,21,5.0,566,Unemployed,Married,Forbearance,2,11,True,2022-01-28
+959456,23,Male,79316,Home,150719,0.15,58,15.0,578,Self-employed,Married,Loan Restructuring,4,3,True,2022-05-11
+143925,40,Female,30895,Student,13866,0.16,52,16.0,693,Unemployed,Married,Forbearance,8,4,False,2020-04-18
+542219,33,Female,165972,Home,347545,0.12,17,12.0,574,Unemployed,Single,Deferment,6,4,False,2020-08-09
+527088,36,Male,68963,Auto,170531,0.19,19,19.0,724,Self-employed,Divorced,Refinancing,3,3,True,2022-04-23
+973573,60,Male,181306,Business,138359,0.17,36,17.0,639,Unemployed,Single,Debt Consolidation,8,7,False,2023-01-19
+629471,41,Male,55964,Business,329789,0.12,57,12.0,621,Employed,Married,Loan Restructuring,5,4,False,2022-12-28
+753789,28,Male,41707,Home,448191,0.16,41,16.0,458,Unemployed,Single,Payment Reminder,10,9,False,2022-11-07
+861099,23,Female,172433,Auto,234502,0.09,33,9.0,323,Unemployed,Divorced,Deferment,11,3,False,2023-07-14
+309195,50,Male,80649,Personal,385902,0.12,53,12.0,591,Self-employed,Divorced,Payment Reminder,9,2,True,2023-10-30
+409025,22,Male,181658,Auto,439693,0.11,45,11.0,414,Employed,Married,Loan Restructuring,4,11,False,2022-03-02
+204070,48,Male,66251,Student,78678,0.12,37,12.0,434,Employed,Single,Payment Reminder,12,3,False,2023-02-05
+7166,52,Female,118703,Auto,414385,0.11,40,11.0,716,Self-employed,Married,Loan Restructuring,0,0,True,2023-01-28
+564405,65,Female,116008,Student,486041,0.13,12,13.0,826,Employed,Married,Debt Consolidation,1,8,True,2023-01-27
+230271,54,Male,132798,Auto,299977,0.08,33,8.0,670,Self-employed,Divorced,Payment Reminder,2,8,False,2019-11-11
+935374,29,Male,137672,Personal,227095,0.11,34,11.0,412,Employed,Married,Deferment,10,1,False,2018-07-25
+860281,57,Female,49153,Personal,315603,0.15,23,15.0,763,Self-employed,Single,Forbearance,0,0,False,2020-09-15
+322498,54,Male,136464,Auto,59010,0.14,51,14.000000000000002,518,Unemployed,Married,Deferment,12,8,False,2019-12-24
+887530,50,Male,131551,Personal,453580,0.05,35,5.0,576,Self-employed,Divorced,Debt Consolidation,6,7,False,2021-08-18
+507096,48,Female,43115,Business,178499,0.15,43,15.0,467,Self-employed,Divorced,Payment Reminder,5,7,True,2023-03-20
+512292,41,Female,63086,Home,348665,0.11,50,11.0,526,Employed,Divorced,Deferment,12,11,False,2018-08-30
+921556,52,Male,107343,Student,178083,0.2,13,20.0,838,Unemployed,Single,Loan Restructuring,8,10,True,2022-02-10
+290693,34,Male,54879,Personal,69935,0.15,47,15.0,606,Employed,Single,Loan Restructuring,7,3,False,2023-11-25
+979703,59,Male,41134,Home,25208,0.19,37,19.0,718,Unemployed,Married,Payment Reminder,9,9,True,2019-06-29
+251619,33,Male,91469,Auto,480670,0.07,42,7.000000000000001,366,Self-employed,Single,Loan Restructuring,8,8,True,2023-07-19
+104221,38,Male,81086,Student,94193,0.05,46,5.0,301,Employed,Married,Deferment,8,5,True,2020-08-14
+483963,32,Male,146692,Auto,488921,0.12,34,12.0,849,Self-employed,Divorced,Payment Reminder,7,7,True,2018-06-08
+694551,22,Female,134363,Auto,149667,0.07,43,7.000000000000001,406,Unemployed,Divorced,Payment Reminder,2,9,False,2021-08-09
+722684,54,Male,28277,Business,278413,0.17,26,17.0,597,Unemployed,Single,Loan Restructuring,2,10,True,2020-09-24
+52970,44,Female,78630,Student,10540,0.06,53,6.0,326,Employed,Married,Loan Restructuring,11,11,False,2019-12-20
+395518,45,Male,168004,Personal,175818,0.08,32,8.0,627,Employed,Divorced,Refinancing,8,5,True,2020-03-15
+563540,50,Female,63080,Auto,149160,0.1,12,10.0,631,Self-employed,Married,Loan Restructuring,12,5,False,2020-09-15
+506450,56,Female,160373,Personal,459595,0.14,59,14.000000000000002,518,Unemployed,Single,Refinancing,4,11,False,2020-09-14
+599913,62,Male,102663,Auto,223011,0.15,23,15.0,476,Self-employed,Single,Debt Consolidation,12,2,True,2018-04-20
+531364,60,Female,44310,Business,362871,0.1,15,10.0,697,Unemployed,Divorced,Payment Reminder,4,10,True,2020-08-17
+625975,57,Female,48749,Business,103057,0.12,55,12.0,331,Self-employed,Single,Debt Consolidation,6,5,False,2021-09-06
+102493,22,Male,109765,Auto,479722,0.18,15,18.0,484,Employed,Divorced,Loan Restructuring,6,12,False,2019-01-31
+4612,43,Male,164240,Business,367602,0.11,50,11.0,626,Self-employed,Divorced,Deferment,10,11,True,2023-05-07
+884303,30,Female,186248,Business,147033,0.05,32,5.0,695,Employed,Single,Forbearance,0,0,True,2021-02-09
+184598,61,Female,62987,Business,409871,0.18,60,18.0,638,Employed,Single,Debt Consolidation,11,1,True,2020-03-08
+662192,23,Female,102836,Student,61395,0.12,21,12.0,842,Self-employed,Married,Deferment,0,0,False,2021-01-28
+522838,38,Female,185317,Personal,319535,0.14,30,14.000000000000002,337,Unemployed,Single,Refinancing,4,8,False,2018-12-24
+148532,25,Male,188400,Personal,33121,0.06,30,6.0,848,Self-employed,Single,Loan Restructuring,6,8,True,2020-09-08
+90321,46,Female,69450,Personal,53631,0.15,30,15.0,483,Unemployed,Divorced,Loan Restructuring,7,9,False,2022-07-18
+195984,33,Female,132636,Home,253437,0.16,46,16.0,656,Self-employed,Divorced,Deferment,6,6,True,2018-11-30
+639991,34,Female,70704,Home,260408,0.11,12,11.0,663,Self-employed,Single,Refinancing,0,0,True,2019-03-23
+302442,35,Female,191822,Business,442244,0.12,17,12.0,662,Employed,Married,Payment Reminder,9,11,False,2019-12-10
+287514,27,Male,39482,Business,448853,0.05,56,5.0,440,Self-employed,Divorced,Forbearance,12,5,True,2018-10-14
+668020,26,Female,181716,Personal,258908,0.11,22,11.0,677,Employed,Single,Payment Reminder,8,8,False,2018-07-12
+949699,35,Female,39440,Personal,119336,0.07,14,7.000000000000001,742,Employed,Single,Deferment,7,3,False,2024-01-29
+963393,21,Female,84047,Personal,253529,0.1,49,10.0,640,Employed,Married,Loan Restructuring,5,6,True,2018-01-24
+701544,61,Female,181596,Personal,144453,0.08,37,8.0,784,Self-employed,Married,Payment Reminder,0,0,True,2020-05-15
+849871,24,Female,189382,Home,76649,0.1,13,10.0,724,Employed,Single,Loan Restructuring,8,9,False,2024-02-02
+165031,65,Female,126587,Student,361804,0.05,41,5.0,335,Employed,Married,Forbearance,3,11,False,2023-09-30
+756242,32,Male,102386,Home,298515,0.08,32,8.0,548,Employed,Married,Refinancing,12,3,False,2020-08-13
+870483,30,Male,126726,Home,97193,0.07,57,7.000000000000001,315,Employed,Divorced,Loan Restructuring,2,10,False,2018-04-28
+225190,29,Female,94651,Business,179593,0.06,43,6.0,671,Unemployed,Single,Debt Consolidation,9,8,True,2022-06-11
+287992,37,Female,36068,Personal,73157,0.11,51,11.0,395,Self-employed,Single,Forbearance,9,11,True,2023-03-27
+620805,47,Female,159862,Personal,212139,0.09,57,9.0,451,Employed,Divorced,Refinancing,2,5,True,2023-08-27
+164816,56,Female,59474,Business,283408,0.14,57,14.000000000000002,417,Employed,Married,Payment Reminder,12,3,False,2021-07-09
+896134,37,Female,84701,Auto,428074,0.16,19,16.0,372,Unemployed,Single,Debt Consolidation,1,9,True,2022-08-01
+740537,47,Male,106174,Personal,477856,0.17,49,17.0,718,Employed,Divorced,Payment Reminder,5,7,True,2022-02-11
+139460,21,Male,51014,Auto,459220,0.14,25,14.000000000000002,413,Unemployed,Single,Deferment,5,10,False,2020-12-15
+877616,51,Male,88202,Auto,116488,0.2,31,20.0,404,Self-employed,Single,Refinancing,5,11,False,2023-11-29
+830230,23,Male,147197,Home,358080,0.1,36,10.0,532,Employed,Married,Payment Reminder,5,6,False,2020-12-01
+274085,47,Female,72534,Personal,383547,0.18,40,18.0,326,Employed,Single,Payment Reminder,10,7,True,2022-05-28
+351373,24,Female,100728,Business,200643,0.17,27,17.0,758,Self-employed,Single,Forbearance,1,5,False,2020-07-28
+787059,41,Male,146957,Auto,198505,0.13,24,13.0,502,Unemployed,Married,Deferment,11,5,False,2022-06-05
+159875,39,Female,55544,Auto,222481,0.16,25,16.0,812,Self-employed,Single,Debt Consolidation,7,6,True,2020-07-21
+263871,47,Male,158086,Home,461567,0.12,41,12.0,384,Self-employed,Married,Loan Restructuring,6,1,False,2023-03-01
+72822,21,Female,23754,Home,443767,0.15,52,15.0,444,Self-employed,Single,Loan Restructuring,11,7,True,2021-05-19
+718629,62,Male,106034,Home,442328,0.05,13,5.0,703,Employed,Single,Refinancing,6,9,True,2019-10-08
+673367,44,Male,151049,Personal,349421,0.18,42,18.0,333,Self-employed,Single,Payment Reminder,0,0,True,2024-01-26
+396823,31,Male,190092,Business,257743,0.1,55,10.0,324,Unemployed,Divorced,Refinancing,8,5,False,2018-03-07
+98156,34,Female,49722,Auto,210525,0.06,18,6.0,585,Employed,Single,Payment Reminder,7,4,True,2022-05-17
+787104,39,Male,103285,Personal,418993,0.07,56,7.000000000000001,634,Self-employed,Single,Deferment,9,8,False,2022-09-08
+670232,20,Male,70383,Personal,308886,0.06,39,6.0,524,Employed,Single,Refinancing,4,2,False,2023-05-11
+240431,36,Male,103840,Auto,269493,0.08,15,8.0,818,Employed,Divorced,Debt Consolidation,0,0,True,2018-11-15
+989398,50,Female,198744,Business,346218,0.1,48,10.0,793,Employed,Single,Refinancing,9,7,False,2020-02-03
+706639,37,Male,197619,Auto,361268,0.14,50,14.000000000000002,572,Unemployed,Married,Refinancing,3,1,True,2019-06-07
+725998,24,Female,81949,Auto,215503,0.2,39,20.0,319,Employed,Single,Refinancing,12,3,False,2023-04-09
+457035,32,Male,53828,Auto,255322,0.11,22,11.0,717,Unemployed,Divorced,Payment Reminder,5,7,False,2023-12-19
+351230,43,Female,126798,Personal,488450,0.16,52,16.0,312,Unemployed,Married,Deferment,6,8,True,2022-11-09
+149468,56,Male,39466,Student,475500,0.19,14,19.0,762,Unemployed,Married,Payment Reminder,7,4,True,2023-08-13
+847984,44,Female,147911,Home,412321,0.19,13,19.0,395,Self-employed,Divorced,Debt Consolidation,1,5,False,2023-03-30
+32961,46,Female,63782,Personal,135041,0.1,35,10.0,439,Employed,Divorced,Refinancing,9,11,True,2019-01-17
+230656,26,Female,184774,Home,82433,0.12,13,12.0,550,Self-employed,Married,Payment Reminder,8,1,True,2022-03-15
+793405,50,Female,93533,Business,74915,0.15,46,15.0,705,Employed,Married,Deferment,2,6,True,2024-01-16
+974213,44,Female,155136,Personal,175282,0.05,14,5.0,770,Self-employed,Married,Loan Restructuring,5,8,True,2024-01-27
+542234,22,Male,20242,Home,180834,0.14,33,14.000000000000002,829,Self-employed,Married,Debt Consolidation,11,8,True,2020-09-07
+928658,37,Male,140358,Auto,215403,0.05,39,5.0,558,Self-employed,Divorced,Loan Restructuring,10,6,False,2022-12-04
+74461,18,Male,123117,Home,356239,0.07,27,7.000000000000001,570,Self-employed,Married,Payment Reminder,5,7,False,2020-07-30
+350452,40,Female,145488,Auto,223631,0.19,46,19.0,849,Unemployed,Divorced,Payment Reminder,12,5,True,2023-02-07
+928253,32,Female,199589,Personal,483065,0.16,12,16.0,342,Self-employed,Divorced,Deferment,10,4,True,2018-01-02
+577576,31,Male,75375,Auto,427742,0.16,59,16.0,842,Self-employed,Divorced,Forbearance,1,11,True,2019-10-25
+469533,39,Male,190670,Auto,78595,0.12,27,12.0,717,Employed,Married,Debt Consolidation,0,0,True,2018-01-27
+596130,56,Male,62996,Personal,404544,0.14,15,14.000000000000002,596,Unemployed,Divorced,Loan Restructuring,6,2,True,2023-08-28
+794560,39,Female,54463,Business,113179,0.05,12,5.0,750,Unemployed,Married,Deferment,0,0,False,2023-02-16
+497123,40,Male,101464,Auto,486239,0.2,23,20.0,660,Self-employed,Single,Forbearance,0,0,True,2022-11-26
+243467,20,Male,127952,Personal,53848,0.15,49,15.0,507,Unemployed,Married,Debt Consolidation,7,4,False,2023-08-02
+730128,55,Male,106008,Student,294252,0.09,32,9.0,725,Unemployed,Married,Deferment,9,7,False,2021-10-03
+119437,52,Male,72317,Business,226937,0.09,26,9.0,775,Self-employed,Divorced,Refinancing,10,8,False,2018-01-13
+196763,56,Male,135283,Student,389888,0.14,39,14.000000000000002,697,Self-employed,Divorced,Loan Restructuring,6,8,False,2021-11-29
+818936,27,Female,144963,Business,122443,0.13,18,13.0,662,Self-employed,Divorced,Payment Reminder,4,8,False,2021-09-02
+137309,36,Female,49697,Auto,210190,0.13,49,13.0,531,Self-employed,Divorced,Deferment,2,9,True,2021-11-08
+319321,60,Male,111019,Business,388233,0.14,22,14.000000000000002,716,Unemployed,Divorced,Refinancing,1,12,True,2022-07-15
+343914,20,Female,137086,Auto,20354,0.19,44,19.0,387,Self-employed,Married,Payment Reminder,3,2,True,2021-02-23
+559079,63,Female,141138,Home,103148,0.14,38,14.000000000000002,545,Employed,Married,Deferment,9,5,False,2023-02-04
+980452,32,Male,176412,Student,157040,0.1,33,10.0,727,Unemployed,Divorced,Forbearance,3,10,False,2021-05-20
+933721,48,Female,194818,Home,367393,0.1,48,10.0,718,Unemployed,Single,Loan Restructuring,8,3,False,2024-01-30
+246686,58,Male,107979,Student,329099,0.06,45,6.0,378,Employed,Divorced,Refinancing,6,7,True,2023-09-07
+285534,39,Female,199941,Auto,110257,0.05,41,5.0,618,Unemployed,Single,Forbearance,1,11,True,2018-01-07
+379030,35,Male,121544,Auto,241124,0.15,12,15.0,630,Employed,Divorced,Payment Reminder,9,9,True,2021-04-14
+868229,56,Male,56634,Home,158536,0.12,25,12.0,372,Unemployed,Single,Debt Consolidation,9,4,False,2024-01-29
+665728,31,Female,35199,Personal,457707,0.07,44,7.000000000000001,511,Unemployed,Married,Debt Consolidation,1,5,True,2021-11-01
+302708,36,Male,21952,Personal,206189,0.17,19,17.0,785,Unemployed,Divorced,Loan Restructuring,11,10,True,2023-10-25
+936130,52,Female,37631,Home,276973,0.2,28,20.0,548,Unemployed,Married,Refinancing,6,2,False,2020-12-13
+87125,56,Female,95098,Home,207361,0.05,30,5.0,485,Self-employed,Divorced,Refinancing,7,1,True,2019-08-10
+979373,40,Male,126137,Student,17049,0.19,16,19.0,476,Employed,Married,Refinancing,5,1,False,2023-11-02
+51598,41,Male,106588,Auto,319534,0.15,25,15.0,329,Employed,Married,Payment Reminder,10,11,True,2022-07-02
+273965,24,Female,108237,Auto,390265,0.13,57,13.0,824,Unemployed,Married,Payment Reminder,12,5,False,2019-01-19
+754221,24,Male,42753,Student,154369,0.07,58,7.000000000000001,407,Employed,Married,Loan Restructuring,3,3,False,2018-08-06
+785473,36,Female,193728,Home,302719,0.12,60,12.0,655,Self-employed,Single,Deferment,9,12,True,2020-10-01
+828491,63,Male,185123,Student,95342,0.12,46,12.0,513,Unemployed,Divorced,Loan Restructuring,6,9,True,2018-03-10
+378967,47,Male,141697,Student,115218,0.09,15,9.0,337,Employed,Divorced,Loan Restructuring,0,0,True,2023-08-17
+489988,29,Male,170974,Home,89809,0.05,29,5.0,424,Employed,Married,Forbearance,6,5,True,2023-08-08
+255750,49,Male,53425,Business,438933,0.2,31,20.0,758,Employed,Single,Deferment,3,12,False,2021-12-25
+839553,47,Male,36789,Auto,180693,0.12,58,12.0,334,Unemployed,Married,Payment Reminder,1,2,True,2018-06-24
+108417,19,Female,91393,Personal,51704,0.05,24,5.0,823,Employed,Divorced,Loan Restructuring,2,5,True,2020-08-11
+22440,35,Male,161243,Home,31488,0.08,57,8.0,520,Self-employed,Married,Forbearance,4,7,False,2023-09-18
+586092,45,Male,152959,Auto,415009,0.09,34,9.0,729,Self-employed,Single,Debt Consolidation,10,11,False,2023-11-14
+687,42,Female,47335,Personal,101922,0.06,40,6.0,845,Self-employed,Single,Payment Reminder,2,12,False,2018-09-10
+97456,60,Female,39973,Home,64173,0.09,44,9.0,343,Employed,Single,Refinancing,6,12,False,2020-06-03
+2829,60,Female,150433,Personal,193396,0.07,58,7.000000000000001,319,Self-employed,Single,Deferment,5,6,True,2019-12-29
+294984,65,Male,185730,Business,113972,0.13,39,13.0,466,Self-employed,Married,Loan Restructuring,8,7,True,2024-02-01
+420765,52,Male,77762,Auto,378975,0.1,13,10.0,664,Self-employed,Married,Payment Reminder,0,0,False,2022-07-06
+737755,34,Male,184996,Personal,466591,0.05,51,5.0,740,Employed,Married,Debt Consolidation,0,0,False,2020-05-16
+452631,59,Female,34714,Personal,433242,0.2,59,20.0,593,Self-employed,Single,Debt Consolidation,5,8,False,2022-11-28
+475794,24,Male,26372,Personal,137919,0.12,40,12.0,465,Employed,Divorced,Refinancing,2,4,False,2019-04-08
+839591,40,Female,169727,Auto,35811,0.2,18,20.0,507,Unemployed,Single,Refinancing,0,0,False,2022-08-12
+479423,23,Male,72436,Auto,160934,0.05,53,5.0,570,Unemployed,Single,Refinancing,8,6,True,2018-06-08
+293690,35,Male,91403,Home,258249,0.14,53,14.000000000000002,548,Employed,Divorced,Debt Consolidation,7,2,True,2022-02-13
+162208,32,Female,187675,Home,422575,0.19,40,19.0,739,Self-employed,Married,Payment Reminder,12,10,True,2022-12-26
+464079,34,Male,191326,Auto,166203,0.07,21,7.000000000000001,576,Employed,Married,Refinancing,1,5,False,2020-06-27
+696550,47,Male,95335,Auto,228316,0.16,52,16.0,320,Employed,Divorced,Loan Restructuring,4,10,True,2022-06-14
+249654,39,Male,128407,Personal,316591,0.09,13,9.0,578,Unemployed,Single,Refinancing,1,4,False,2023-08-29
+658634,62,Female,69673,Personal,288036,0.09,15,9.0,562,Unemployed,Married,Refinancing,11,3,True,2023-05-09
+986630,31,Male,138774,Personal,182094,0.12,39,12.0,331,Unemployed,Divorced,Forbearance,3,2,False,2020-08-12
+364729,25,Female,93487,Personal,262051,0.07,40,7.000000000000001,358,Unemployed,Single,Loan Restructuring,12,2,True,2023-01-02
+706053,35,Female,106821,Auto,62651,0.16,36,16.0,612,Self-employed,Single,Loan Restructuring,11,8,False,2021-08-31
+340102,58,Female,104536,Business,475786,0.13,35,13.0,661,Unemployed,Married,Debt Consolidation,3,2,True,2019-04-04
+111813,36,Male,51485,Auto,233221,0.17,15,17.0,841,Unemployed,Single,Debt Consolidation,6,10,False,2018-09-25
+400708,59,Male,191779,Business,45631,0.18,37,18.0,788,Employed,Divorced,Loan Restructuring,9,4,True,2023-11-17
+531012,38,Female,166924,Home,229818,0.15,28,15.0,405,Employed,Single,Deferment,6,10,True,2021-05-16
+37073,56,Female,115318,Personal,171876,0.17,35,17.0,362,Employed,Single,Loan Restructuring,6,12,False,2020-10-10
+711290,59,Female,74108,Home,194728,0.07,56,7.000000000000001,401,Unemployed,Single,Payment Reminder,5,4,False,2020-11-01
+879798,27,Male,111716,Auto,135779,0.16,32,16.0,707,Unemployed,Single,Forbearance,11,6,False,2023-10-19
+381576,36,Male,23505,Student,92357,0.08,27,8.0,345,Self-employed,Married,Deferment,0,0,False,2021-01-24
+695988,62,Female,53542,Home,306067,0.2,18,20.0,839,Unemployed,Single,Refinancing,6,5,True,2018-11-25
+267357,30,Female,42215,Student,262379,0.15,44,15.0,417,Unemployed,Divorced,Forbearance,8,11,False,2023-03-10
+628810,30,Male,176485,Student,465682,0.15,48,15.0,658,Self-employed,Married,Debt Consolidation,0,0,True,2018-08-26
+773968,59,Female,117609,Auto,414616,0.15,30,15.0,303,Unemployed,Divorced,Loan Restructuring,11,3,False,2024-02-08
+930151,26,Male,147133,Business,118058,0.13,39,13.0,415,Self-employed,Single,Loan Restructuring,12,10,False,2019-01-14
+855773,40,Male,20978,Personal,214263,0.14,58,14.000000000000002,798,Unemployed,Married,Debt Consolidation,2,10,False,2019-07-03
+421438,56,Male,107087,Auto,61214,0.2,17,20.0,535,Employed,Divorced,Forbearance,10,7,True,2020-08-29
+699906,31,Female,82209,Personal,120925,0.18,46,18.0,786,Employed,Divorced,Debt Consolidation,2,7,True,2023-02-23
+232684,38,Female,131434,Personal,387211,0.18,29,18.0,390,Self-employed,Single,Payment Reminder,8,9,True,2020-09-02
+595984,46,Female,170982,Personal,116834,0.2,45,20.0,779,Employed,Divorced,Payment Reminder,10,9,True,2019-04-18
+684605,40,Male,125655,Personal,273947,0.11,45,11.0,803,Employed,Divorced,Refinancing,3,6,True,2020-09-12
+191607,21,Female,74057,Business,21808,0.2,23,20.0,810,Self-employed,Divorced,Debt Consolidation,7,3,False,2019-06-01
+630631,42,Male,121123,Student,240768,0.05,53,5.0,594,Employed,Divorced,Forbearance,11,1,True,2019-09-14
+209652,57,Female,95727,Business,13287,0.16,21,16.0,773,Unemployed,Single,Payment Reminder,0,0,True,2022-02-24
+113451,52,Female,73534,Home,376697,0.1,53,10.0,683,Employed,Divorced,Refinancing,12,3,False,2020-02-23
+764452,55,Female,108408,Home,165097,0.18,17,18.0,438,Employed,Married,Refinancing,4,7,True,2018-08-13
+826582,28,Male,150677,Personal,133024,0.2,47,20.0,509,Self-employed,Married,Forbearance,5,7,False,2019-08-23
+678425,21,Male,125924,Business,220645,0.18,24,18.0,624,Employed,Married,Forbearance,3,9,False,2019-06-20
+980324,35,Female,80978,Student,251708,0.17,59,17.0,611,Self-employed,Divorced,Debt Consolidation,11,2,True,2019-03-09
+409234,60,Female,189820,Personal,88278,0.05,34,5.0,587,Unemployed,Single,Forbearance,11,4,True,2021-12-20
+393584,40,Female,193704,Auto,202547,0.07,19,7.000000000000001,435,Self-employed,Single,Debt Consolidation,12,6,True,2022-12-23
+944635,47,Female,130422,Student,356824,0.13,16,13.0,522,Unemployed,Single,Refinancing,4,8,False,2022-02-21
+914970,39,Female,143364,Personal,280599,0.06,14,6.0,725,Self-employed,Married,Refinancing,4,10,True,2022-04-27
+576024,27,Female,126612,Student,381807,0.14,48,14.000000000000002,771,Self-employed,Single,Refinancing,3,1,False,2020-09-25
+122585,53,Female,62643,Home,145990,0.12,36,12.0,386,Self-employed,Married,Loan Restructuring,4,4,True,2021-09-30
+734154,38,Female,164004,Home,499040,0.13,18,13.0,451,Self-employed,Divorced,Loan Restructuring,10,1,False,2022-11-05
+995664,64,Male,125719,Home,386755,0.13,31,13.0,654,Employed,Divorced,Forbearance,12,4,True,2022-05-27
+286885,33,Female,160338,Student,429608,0.13,43,13.0,387,Unemployed,Divorced,Forbearance,3,1,True,2021-06-01
+573643,45,Male,29777,Student,361090,0.18,42,18.0,512,Self-employed,Married,Payment Reminder,6,3,False,2020-09-14
+464549,29,Female,63795,Business,388846,0.08,37,8.0,413,Employed,Married,Payment Reminder,12,2,True,2021-06-13
+450893,52,Female,125137,Personal,134726,0.18,57,18.0,627,Unemployed,Divorced,Deferment,2,4,True,2023-07-17
+810487,28,Female,112495,Home,273225,0.15,25,15.0,439,Self-employed,Single,Payment Reminder,7,3,False,2023-07-22
+575423,46,Female,71258,Auto,194733,0.07,25,7.000000000000001,785,Employed,Single,Refinancing,11,4,True,2019-06-19
+501448,36,Male,185490,Auto,140148,0.13,50,13.0,331,Unemployed,Single,Deferment,2,1,True,2018-08-24
+766440,24,Male,171177,Business,348623,0.19,26,19.0,469,Unemployed,Married,Deferment,9,11,False,2024-02-21
+717159,44,Female,163826,Home,440723,0.07,58,7.000000000000001,363,Employed,Single,Deferment,0,0,False,2021-09-22
+900530,22,Female,131761,Business,302143,0.19,26,19.0,584,Unemployed,Single,Loan Restructuring,5,3,True,2022-11-05
+888175,59,Female,64898,Home,392082,0.06,16,6.0,527,Employed,Single,Debt Consolidation,5,11,False,2023-02-27
+420260,35,Female,126763,Business,151254,0.16,20,16.0,744,Self-employed,Divorced,Deferment,10,4,False,2024-02-25
+949939,56,Female,56144,Business,446597,0.08,55,8.0,429,Self-employed,Divorced,Forbearance,12,2,True,2020-08-17
+774034,62,Female,30243,Personal,494809,0.2,23,20.0,677,Employed,Single,Loan Restructuring,9,5,True,2019-07-12
+487056,44,Female,48848,Business,393568,0.14,20,14.000000000000002,746,Self-employed,Single,Refinancing,5,8,True,2023-02-14
+262317,40,Male,182318,Student,223661,0.16,47,16.0,584,Unemployed,Divorced,Deferment,2,1,False,2023-06-27
+253429,48,Female,84163,Student,398944,0.12,47,12.0,326,Unemployed,Married,Loan Restructuring,10,5,True,2023-11-11
+204576,46,Male,71593,Student,52860,0.07,44,7.000000000000001,719,Self-employed,Single,Deferment,3,6,True,2020-04-18
+445973,65,Male,102262,Home,304123,0.06,29,6.0,812,Employed,Married,Loan Restructuring,5,7,False,2023-05-19
+19660,36,Female,56893,Business,144782,0.1,34,10.0,414,Self-employed,Married,Forbearance,6,12,False,2018-11-16
+349631,32,Male,196505,Personal,426333,0.14,12,14.000000000000002,846,Employed,Single,Debt Consolidation,8,4,True,2019-09-28
+268014,64,Male,68642,Student,446675,0.16,19,16.0,364,Self-employed,Married,Debt Consolidation,1,6,True,2022-09-15
+549712,52,Female,73554,Home,286742,0.06,57,6.0,827,Unemployed,Married,Payment Reminder,10,2,False,2022-12-26
+791449,38,Male,135459,Business,57085,0.17,29,17.0,304,Unemployed,Single,Forbearance,4,2,False,2020-01-31
+761242,25,Male,169716,Auto,149005,0.1,58,10.0,775,Unemployed,Married,Payment Reminder,10,12,True,2018-10-28
+56530,56,Male,20107,Personal,476148,0.06,26,6.0,358,Self-employed,Divorced,Payment Reminder,6,6,True,2023-01-29
+625323,63,Female,133133,Auto,305738,0.13,45,13.0,399,Employed,Divorced,Loan Restructuring,10,5,True,2019-01-19
+382398,36,Male,86483,Personal,60189,0.17,47,17.0,507,Unemployed,Divorced,Payment Reminder,2,4,False,2019-01-16
+683114,44,Male,62135,Home,63324,0.1,40,10.0,391,Unemployed,Divorced,Refinancing,6,3,True,2020-12-02
+563352,60,Female,129504,Personal,193808,0.15,47,15.0,588,Employed,Single,Loan Restructuring,11,12,True,2019-01-14
+632726,38,Male,115697,Personal,267509,0.07,23,7.000000000000001,546,Self-employed,Divorced,Forbearance,0,0,True,2023-10-29
+667127,50,Female,169590,Auto,289327,0.13,52,13.0,392,Self-employed,Single,Payment Reminder,4,5,False,2020-06-17
+429705,49,Female,95722,Home,442273,0.06,51,6.0,567,Self-employed,Divorced,Refinancing,2,1,True,2023-11-05
+705659,26,Female,132621,Personal,179232,0.06,41,6.0,316,Employed,Divorced,Deferment,1,1,True,2023-11-10
+330320,63,Male,81523,Home,417843,0.18,42,18.0,386,Employed,Single,Debt Consolidation,12,8,False,2022-03-29
+416991,61,Female,47024,Home,219238,0.1,42,10.0,448,Employed,Single,Loan Restructuring,10,3,False,2020-05-05
+205272,60,Female,97316,Student,232221,0.09,56,9.0,335,Self-employed,Single,Loan Restructuring,8,11,False,2023-05-25
+401652,33,Female,173045,Home,124238,0.09,42,9.0,644,Unemployed,Married,Deferment,3,11,True,2018-06-03
+259685,36,Male,27393,Business,327728,0.08,54,8.0,810,Employed,Single,Debt Consolidation,7,11,True,2022-06-06
+642435,36,Male,53949,Student,261643,0.16,52,16.0,331,Employed,Divorced,Payment Reminder,8,12,False,2020-12-18
+143331,32,Female,166141,Business,128243,0.2,16,20.0,447,Employed,Divorced,Loan Restructuring,4,7,False,2023-04-07
+657801,48,Female,60518,Auto,190087,0.08,15,8.0,599,Self-employed,Married,Loan Restructuring,7,10,False,2022-05-06
+160981,36,Female,196623,Business,73306,0.16,30,16.0,380,Unemployed,Single,Deferment,6,1,True,2021-12-25
+297598,49,Male,181408,Business,194317,0.11,28,11.0,800,Unemployed,Divorced,Payment Reminder,2,2,True,2023-09-12
+651457,33,Male,187242,Personal,123733,0.11,42,11.0,589,Employed,Divorced,Debt Consolidation,9,4,False,2023-04-30
+645521,55,Female,72356,Home,129026,0.15,34,15.0,681,Self-employed,Married,Debt Consolidation,12,11,True,2020-10-08
+426498,65,Female,43789,Home,493766,0.15,31,15.0,635,Self-employed,Married,Deferment,10,12,False,2018-09-26
+341980,24,Male,169679,Student,387107,0.14,14,14.000000000000002,595,Self-employed,Married,Payment Reminder,2,3,False,2024-01-17
+243310,49,Female,86714,Home,304203,0.14,20,14.000000000000002,576,Self-employed,Married,Forbearance,8,1,True,2018-12-29
