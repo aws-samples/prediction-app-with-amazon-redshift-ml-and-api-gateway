@@ -1,10 +1,51 @@
-# internship-capstone
+# Prediction App with Amazon Redshift ML and API Gateway
 
-## Description
+This sample shows how to leverage [Amazon Redshift](https://aws.amazon.com/redshift/) to implement a machine learning model.
 
-This repository documents my internship capstone project, where I leveraged Amazon Redshift to implement a machine learning model. The goal of the model is to predict the effectiveness of a specific remediation strategy tailored to a specific customer. The following instructions outline the steps to deploy this project using CDK.
+This sample will leverage the [serverless](https://aws.amazon.com/redshift/redshift-serverless/) flavor of Amazon Redshift.
 
-## Seeing it in action
+It uses [Amazon Redshift ML](https://aws.amazon.com/redshift/features/redshift-ml/) to achieve this. The idea is that you can use simple [SQL](https://aws.amazon.com/what-is/sql/) commands to create a model based on a dataset; and help achieve predictive analytics.
+
+Additionally, it serves the generated machine learning model via an API Endpoint, which is implemented using [Amazon API Gateway](https://aws.amazon.com/api-gateway/) and [AWS Lambda](https://aws.amazon.com/api-gateway/).
+
+The API Layer is protected by an authorization layer provided by [Amazon Cognito](https://aws.amazon.com/cognito/). Lastly, it shows how to use [AWS Web Application Firewall (WAF)](https://aws.amazon.com/waf/) to prevent attacks such as [bot attacks](https://www.cloudflare.com/en-gb/learning/bots/what-is-a-bot-attack/), [DDoS](https://www.cloudflare.com/en-gb/learning/ddos/what-is-a-ddos-attack/) etc.
+
+
+## Use case / domain 
+
+The use case in this sample is for a lending bank - wanting to optimize their communication strategies for their customers who may be on the verge of defaulting on their loan payments.
+
+We assume the existence of a combined dataset that contains historical information about customers, their demographics, type of loan offered, a remediation strategy that was applied - and the outcome of that strategy - ie. whether the remediation strategy help the customer stop defaulting on their loan payments.
+
+And we apply Amazon Redshift ML on this dataset to get prediction on particular strategies being effective or not for future potential defaulters.
+
+## Synthetic data
+
+The synthetic dataset is in the form of a [csv](./synthetic-dataset/loan_remediation_data.csv) file in the [synthetic-dataset](./synthetic-dataset/) directory. This script uses the [faker](https://faker.readthedocs.io/en/master/) library to generate the synthetic data, and [pandas](https://pandas.pydata.org/) library to create the csv.
+
+It was generated using a [Python script](./scripts/dataset-generation/raw_data.py) which can be found in the [scripts/dataset-generation](./scripts/dataset-generation/) directory.
+
+To modify the generated dataset generation (or generate it again), you can run the script:
+```
+# change into the script directory
+cd scripts/dataset-generation
+
+# create a virtual environment (if not already done)
+python3 -m venv .venv
+
+# activate the virtual environment 
+source .venv/bin/activate 
+# for other shells like the fish shell, you can add ".fish" at the end of the above command
+
+# install the dependencies
+pip install -r requirements.txt
+
+# run the script
+python raw_data.py
+```
+Note - it generates the file in the same directory as the script is located instead of the [synthetic-dataset](./synthetic-dataset/) directory.
+
+## Deploying the solution
 
 ### Pre-requisites
 
@@ -21,29 +62,55 @@ This repository documents my internship capstone project, where I leveraged Amaz
 npm install
 ```
 
+### Bootstrap CDK environment (if not already done)
+
+Bootstrapping provisions resources in your environment such as an Amazon Simple Storage Service (Amazon S3) bucket for storing files and AWS Identity and Access Management (IAM) roles that grant permissions needed to perform deployments. These resources get provisioned in an AWS CloudFormation stack, called the bootstrap stack. It is usually named CDKToolkit. Like any AWS CloudFormation stack, it will appear in the AWS CloudFormation console of your environment once it has been deployed. More details can be found [here](https://docs.aws.amazon.com/cdk/v2/guide/bootstrapping.html).
+
+```
+npx cdk bootstrap
+
+# You can optionally specify `--profile` at the end of that command if you wish to not use the default AWS profile.
+```
+
+### Set the environment variable for REDSHIFT_TABLE_NAME
+This environment variable should be the same as the table you will create in the Redshift Query Editor (after the infrastructure is deployed). This is the dataset on which the Machine learning model is trained.
+```
+export REDSHIFT_TABLE_NAME=public.<enter_the_name_for_your_redshift_table>
+```
+
+Note - we are expecting to create this table in the "public" schema of Redshift's dev database. You can have it in any other schema, but you will have to modify the permissions and code in the Lambda function accordingly.
+
 ### Deploy the infrastructure
 
-```
-# make sure you are in the root directory of this project
+* Deploy base infrastructure - this will deploy the VPC, and security group for Redshift Serverless. Additionally, it creates an Amazon S3 bucket, and uploads the synthetic data to this bucket using the [S3 Bucket Deployment CDK construct](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_s3_deployment.BucketDeployment.html). If you wish to modify the CIDR block for the VPC, you can do so in the [lib/base-infra-stack.ts](./lib/base-infra-stack.ts#L26)
+  ```
+  npx cdk deploy BaseInfraStack
+  
+  # You can optionally specify `--profile` at the end of that command if you wish to not use the default AWS profile.
+  ```
 
-npx cdk deploy BaseInfraStack
+* Deploy the Redshift Serverless stack - this deploys the Redshift serverless [namespace and workgroup](https://docs.aws.amazon.com/redshift/latest/mgmt/serverless-workgroup-namespace.html) alongwith the [Secrets Manager](https://aws.amazon.com/secrets-manager/) secret for the root user of the database.
+  ```
+  npx cdk deploy RedshiftServerlessStack
+    
+  # You can optionally specify `--profile` at the end of that command if you wish to not use the default AWS profile.
+  ```
+  Note - if you want to override the default Redshift Serverless Default Database, Namespace and Workgroup names, you can specify these environment variables: `REDSHIFT_DB_NAME`, `REDSHIFT_SERVERLESS_NAMESPACE`, and `REDSHIFT_SERVERLESS_WORKGROUP` respectively.
 
-npx cdk deploy RedshiftServerlessStack
+* Deploy the App stack - this will deploy the Lambda function, API Gateway, and Cognito bits. 
+  ```
+  npx cdk deploy AppStack
+    
+  # You can optionally specify `--profile` at the end of that command if you wish to not use the default AWS profile.
+  ```
 
-npx cdk deploy LambdaStack
+* Deploy the WAF Stack - this will deploy the Web Application Firewall with some pre-configured rules.
+  ```
+  npx cdk deploy WAFStack
+    
+  # You can optionally specify `--profile` at the end of that command if you wish to not use the default AWS profile.
+  ```
 
-npx cdk deploy ApiAndCognitoStack
-
-npx cdk deploy WAFStack
-
-```
-
-This will deploy:
-* VPC and Security Groups necessary for the Redshift Serverless environment
-* Redshift Serverless namespace and workgroup
-* A Lambda function that invokes the machine learning model trained in Redshift Serverless
-* A REST API, a Cognito User Pool, and an application integration client associated with that user pool
-* A WebACL associated with the Rest API Endpoint
 
 ### Setting up the Data and ML Model
 After the RedshiftServerlessStack has been successfully deployed, follow these steps to load the data and set up the machine learning model:
