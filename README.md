@@ -113,26 +113,63 @@ Note - we are expecting to create this table in the "public" schema of Redshift'
 
 
 ### Setting up the Data and ML Model
-After the RedshiftServerlessStack has been successfully deployed, follow these steps to load the data and set up the machine learning model:
+After the Redshift Serverless Stack has been successfully deployed, you can follow these steps to load the data and set up the machine learning model:
 
-* Create an S3 bucket 'loan-remediation-dataset' and upload the 'loan_remediation_data.csv' file to this bucket
-* In Redshift Query Editor V2, create a table raw_data under 'dev' database and 'public' schema, and upload the synthetic dataset from the S3 bucket into the table
-* Follow the instructions to create the ML model under 'public' schema using the loan_remediation table data
+* Sign into the AWS Console, then search for “Redshift” in the search bar, and select “Query editor v2” on the left hand pane. 
+![serverless_dashboard](./screenshots/redshift_serverless_db.png)
+It will open the editor in a new tab in your web browser. On the left hand pane in the editor, you should see all the Redshift serverless Workgroups and/or Provisioned clusters that have been deployed in that specific AWS Region.
+* Set up the connection details for the workgroup that you deployed:
 
-```
-CREATE MODEL public.predict_model
-FROM
-    (
-      SELECT age, gender, income, loan_type, loan_amount, interest_rate, loan_term, loan_interest_rate, credit_score, 
-      employment_status, marital_status, remediation_strategy, missed_payments, missed_payments_duration, successful
-      FROM public.raw_data
-      WHERE timestamp < '2023-01-31'
-     )
-TARGET successful FUNCTION ml_fn_prediction
-IAM_ROLE default SETTINGS (
-  S3_BUCKET 'loan-remediation-data'
-);
-```
+  ![connection_details](./screenshots/redshift_connection.png)
+  
+  There are a few different ways to authenticate – a Federated user, Database user and password, or AWS Secrets Manager. For simplicity you can use the details from the Secret that was created as part of the creation of the Redshift Serverless stack.
+
+* Load the synthetic data in a table using the "Load Data" option in the left pane of the Query Editor. Select the option to "Load from S3 bucket", and select the bucket that was created with the Base Infra Stack, and then select the csv file when you browse S3.
+
+* When you keep hitting next, it will ask for Table Options, select "Load new table", which will create a new table with a detected schema. Select the schema under the "Schema" drop down; and under the "Table" section, specify the name of the table. NOTE - this table name must be same as the "REDSHIFT_TABLE_NAME" environment variable that you set in the beginning. For instance if REDSHIFT_TABLE_NAME is "public.loan_t", the schema you should select is "public"; and under table you should enter "loan_t". Lastly, choose the IAM role that comes under the dropdown, and then hit Create Table.
+
+  ![load_data](./screenshots/load_data.png)
+
+* Once it finishes, it will show a message saying the table was created successfully. The following menu will ask you to load the data; click the "Load Data" button. It should then load the data from the CSV into the table. You can verify by running `SELECT * FROM <table name> LIMIT 10;` in the editor. If it returns data, that means data has been loaded successfully.
+
+* Run the following SQL to create the machine learning model on the query editor:
+
+  ```
+  CREATE MODEL public.predict_model
+  FROM
+      (
+        SELECT age, gender, income, loan_type, loan_amount, interest_rate, loan_term, loan_interest_rate, credit_score, 
+        employment_status, marital_status, remediation_strategy, missed_payments, missed_payments_duration, successful
+        FROM <redshift table name environment variable set at the beginning>
+        WHERE timestamp < '2023-01-31'
+      )
+  TARGET successful FUNCTION ml_fn_prediction
+  IAM_ROLE default SETTINGS (
+    S3_BUCKET '<Name of the S3 bucket>'
+  );
+  ```
+
+  NOTE:
+  * You need to create an S3 bucket where the artifacts would get uploaded - and that is the S3_BUCKET parameter in the SETTINGS (referring to the query above).
+  * Make sure that the table name (FROM) is exactly the same as the REDSHIFT_TABLE_NAME environment variable that was set before you started deploying the solution.
+  * It takes a few hours for the model to finish creating. It uses [Amazon SageMaker AutoML](https://aws.amazon.com/sagemaker/autopilot/) under the hood.
+  * If you change the function name in the query above, make sure to set the environment variable "PREDICTION_FUNCTION_NAME", and re-deploy the AppStack
+    ```
+    export PREDICTION_FUNCTION_NAME=<some other function name>
+
+    npx cdk deploy AppStack
+    ``` 
+  * You could see the model via simple SQL commands as well.
+  * To list all models: `SHOW MODEL ALL;`
+  * To show your model: `SHOW MODEL predict_model;`. This would show details such as Model Name, Schema Name, Owner, Creation Time, Model State, f1 score, Estimated Cost and so on. The key thing here is “Model State”, when it says it is “READY” – that would mean that the model is ready to make predictions. 
+  * To get a more detailed analysis/explanation of the model that was created, you can run the “EXPLAIN_MODEL” command: `SELECT EXPLAIN_MODEL('predict_model');`. It will spit out a JSON like object with the [SHAP values](https://www.kaggle.com/code/dansbecker/shap-values) for the different feature columns in the dataset.
+  * In case the processing job did not finish and the maximum runtime reached, you may see an error like this:
+    ```
+    {
+        "explanations": "Processing job failed: Maximum runtime reached and processing job is unfinished. Increase MAX_RUNTIME for explanabilty report."
+    }   
+    ```
+    To fix this error, you'll have to set a higher MAX_RUNTIME under the SETTINGS object in the create model query. Full reference can be found on the [AWS Documentation](https://docs.aws.amazon.com/redshift/latest/dg/r_CREATE_MODEL.html).
 
 ### Grant Permissions for Lambda IAM Role
 
