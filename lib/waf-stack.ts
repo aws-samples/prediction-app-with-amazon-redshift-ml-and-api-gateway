@@ -1,10 +1,10 @@
 import * as cdk from 'aws-cdk-lib';
 import * as waf from 'aws-cdk-lib/aws-wafv2';
 import { Construct } from 'constructs';
-import { ApiAndCognitoStack } from './api-and-cognito-stack';
+import * as apigw from 'aws-cdk-lib/aws-apigateway';
 
 interface WAFStackProps extends cdk.StackProps {
-  apiAndCognitoStack: ApiAndCognitoStack;
+  api: apigw.RestApi;
 }
 
 export class WAFStack extends cdk.Stack {
@@ -94,7 +94,7 @@ export class WAFStack extends cdk.Stack {
     // Associate the WebACL with the API Gateway
     new waf.CfnWebACLAssociation(this, 'WebACLAssociation', {
       webAclArn: webACL.attrArn,
-    resourceArn: `arn:aws:apigateway:${this.region}::/restapis/${props.apiAndCognitoStack.api.restApiId}/stages/prod`,
+    resourceArn: `arn:aws:apigateway:${this.region}::/restapis/${props.api.restApiId}/stages/prod`,
     });
   }
 }

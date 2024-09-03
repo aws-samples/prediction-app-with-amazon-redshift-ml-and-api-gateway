@@ -16,14 +16,10 @@ export class RedshiftServerlessStack extends cdk.Stack {
   readonly redshiftCreds: aws_secretsmanager.Secret;
   public readonly redshiftNamespace: redshiftserverless.CfnNamespace;
   public readonly redshiftWorkgroup: redshiftserverless.CfnWorkgroup;
+  readonly redshiftDbName: string;
   
-  accountId: string;
-
   constructor(scope: Construct, id: string, props: RedshiftServerlessStackProps) {
     super(scope, id, props);
-
-    // setting account ID
-    this.accountId = cdk.Stack.of(this).account;
 
     // passed in as property
     const vpc = props.vpc;
@@ -57,9 +53,14 @@ export class RedshiftServerlessStack extends cdk.Stack {
 
       const redshiftserverlessKmsKey = new kms.Key(this, 'RedshiftserverlessKmsKey', {enabled: true});
 
-      const warehouseDBName = 'dev';
-  
-      const redshiftServerlessNamespaceName = 'loan-remediation-ns';
+      const dbName = process.env.REDSHIFT_DB_NAME || 'dev';
+      console.log(`Redshift default database name: ${dbName}`);
+      const warehouseDBName = dbName;
+      this.redshiftDbName = warehouseDBName;
+
+      const serverlessNamespace = process.env.REDSHIFT_SERVERLESS_NAMESPACE || 'loan-remediation-ns';
+      console.log(`Redshift serverless namespace: ${serverlessNamespace}`);      
+      const redshiftServerlessNamespaceName = serverlessNamespace;
 
       const cfnNamespace = new redshiftserverless.CfnNamespace(this, 'RedshiftServerlessNamespace',{
         namespaceName: redshiftServerlessNamespaceName,
@@ -72,7 +73,9 @@ export class RedshiftServerlessStack extends cdk.Stack {
         logExports: ['userlog', 'connectionlog', 'useractivitylog']
      });
 
-     const redshiftserverlessWorkgroupName = 'loan-remediation-wg';
+     const serverlessWorkgroup = process.env.REDSHIFT_SERVERLESS_WORKGROUP || 'loan-remediation-wg';
+     console.log(`Redshift serverless workgroup: ${serverlessWorkgroup}`);
+     const redshiftserverlessWorkgroupName = serverlessWorkgroup;
 
      const cfnWorkgroup = new redshiftserverless.CfnWorkgroup(this, 'RedshiftServerlessWorkgroup',
      {
