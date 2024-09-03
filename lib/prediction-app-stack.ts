@@ -26,6 +26,9 @@ export class PredictionAppStack extends cdk.Stack {
     };
     console.log(`Redshift table name: ${tableName}`);
 
+    const predictionFnName = process.env.PREDICTION_FUNCTION_NAME || 'public.ml_fn_prediction';
+    console.log(`Redshift ML Prediction Function name: ${predictionFnName}`);
+
     // Create the Lambda function
     this.lambda = new lambda.Function(this, 'RemedationPredictionLambda', {
       runtime: lambda.Runtime.PYTHON_3_12,
@@ -34,7 +37,8 @@ export class PredictionAppStack extends cdk.Stack {
       environment: {
         WORKGROUP_NAME: props.redshiftWorkgroup.workgroupName,
         REDSHIFT_DATABASE: props.redshiftDbName,
-        REDSHIFT_TABLE_NAME: tableName
+        REDSHIFT_TABLE_NAME: tableName,
+        PREDICTION_FUNCTION_NAME: predictionFnName
       },
       timeout: cdk.Duration.seconds(30), // Set the timeout to 30 seconds
     });
