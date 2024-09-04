@@ -68,10 +68,10 @@ def lambda_handler(event, context):
         # Return the prediction result as the API response
         return {
             'statusCode': 200,
-            'body': json.dumps({'effective': effective})
+            'body': {'effective': effective}
         }
     else:
         return {
             'statusCode': 200,
-            'body': json.dumps({'message': 'No prediction result found'})
+            'body': {'message': 'No prediction result found'}
         }
