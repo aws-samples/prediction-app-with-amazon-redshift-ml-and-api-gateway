@@ -1,9 +1,13 @@
 
-import json
 import os
 import time
 
 import boto3
+
+
+MAX_CHECK_RETRIES = 7
+
+MAX_ERROR_RETRIES = 3
 
 
 def lambda_handler(event, context):
@@ -49,29 +53,62 @@ def lambda_handler(event, context):
         Database=redshift_database,
         Sql=predict_sql
     )
+    query_id = response['Id']
+
+    fetch_counter = 0
+    failed_counter = 0
+
+    status = "n/a"
+
 
     # Wait for the query to complete
     while True:
-        status = redshift_data.describe_statement(Id=response['Id'])['Status']
-        if status == 'FINISHED':
+        status = redshift_data.describe_statement(Id=query_id)['Status']
+        fetch_counter += 1
+        
+        print(f"attempt {fetch_counter} out of {MAX_CHECK_RETRIES}")
+        
+        if status == 'FINISHED' and fetch_counter <= MAX_CHECK_RETRIES:
+            print("Query execution finished")
             break
-        elif status == 'FAILED':
+        
+        elif fetch_counter > MAX_CHECK_RETRIES:
+            print("Max check retries reached")
+            raise Exception("Query did not finish in time")
+        
+        elif status == 'FAILED' and failed_counter <= MAX_ERROR_RETRIES:
+            print("query failed, will attempt to retry")
+            failed_counter += 1
+            response = redshift_data.execute_statement(
+                WorkgroupName=redshift_workgroup_name,
+                Database=redshift_database,
+                Sql=predict_sql
+            )
+            query_id = response['Id']
+
+        elif failed_counter > MAX_ERROR_RETRIES:
+            print("Maximum error retries reached")
             raise Exception(f"Query failed: {redshift_data.describe_statement(Id=response['Id'])['Error']}")
-        time.sleep(3)  # Wait for 1 second before checking the status again
 
-    # Retrieve the prediction result
-    prediction_result = redshift_data.get_statement_result(Id=response['Id'])
+        
+        time.sleep(3)  # Wait for 3 seconds before checking the status again
 
-    # Check if the query returned any result
-    if prediction_result['Records']:
-        effective = prediction_result['Records'][0][0]['booleanValue']
-        # Return the prediction result as the API response
-        return {
-            'statusCode': 200,
-            'body': {'effective': effective}
-        }
-    else:
-        return {
-            'statusCode': 200,
-            'body': {'message': 'No prediction result found'}
-        }
+
+    if status == 'FINISHED':
+        # Retrieve the prediction result
+        prediction_result = redshift_data.get_statement_result(Id=response['Id'])
+
+        # Check if the query returned any result
+        if prediction_result['Records']:
+            effective = prediction_result['Records'][0][0]['booleanValue']
+            # Return the prediction result as the API response
+            return {
+                'statusCode': 200,
+                'body': {'effective': effective}
+            }
+        else:
+            return {
+                'statusCode': 200,
+                'body': {'message': 'No prediction result found'}
+            }
+        
