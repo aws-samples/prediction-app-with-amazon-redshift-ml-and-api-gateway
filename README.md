@@ -215,43 +215,37 @@ To find out what the lambda role name is, find the prediction lambda function, c
 
 You can now attempt to test the function in the console again, and should not see that error anymore.
 
-### Obtain an ID token via [Postman](https://www.postman.com/)
+## Testing the API end-to-end
 
-* Create a new user in the Cognito user pool in the Cognito console
-* Navigate to the "App integration" section of the Cognito User Pool and note down the "App client ID"
-* Open Postman and go to the "Authorization" tab. Select the "OAuth 2.0" option as the authentication type. In the "Configure New Token" dialog, provide the following information:
-    * Grant Type: Authorization Code
-    * Callback URL: https://example.com 
-    * Auth URL: https://remedation-app.auth.eu-north-1.amazoncognito.com/oauth2/authorize
-    * Access Token URL: https://remedation-app.auth.eu-north-1.amazoncognito.com/oauth2/token
-    * Client ID: <app-client-id> (replace with the App Client ID obtained above)
-    * Scope: openid
-* Click on the "Get New Access Token" button in Postman. The Cognito Hosted UI will appear, prompting you to sign in with the user created in step 1. If prompted, reset your password as per the instructions. After successful sign-in, Postman will display the access token and ID token. Copy the ID token for use in your API requests
+* To test the API, you need to first obtain an authorization token from Amazon Cognito User Pools. 
+  * To do this, you can use [Postman](https://www.postman.com/). Note that you will need to create a user in the user pool first. More details on how to create the user can be found [here](https://docs.aws.amazon.com/cognito/latest/developerguide/how-to-create-user-accounts.html). Once you've successfully created a user in the User Pool, you can continue with the rest of the [Postman instructions](#obtain-an-id-token-via-postman).
 
-### Test the authorized API endpoint
+  * Alternatively, you can use this [open-source utility](https://github.com/aws-samples/cognito-user-token-helper/tree/main) to programmatically create users and generate auth tokens for those users in the Cognito User Pool. 
 
-Once the token is obtained, you can now send a request to the API via [Postman](https://www.postman.com/), [cURL](https://curl.se/), [HTTPie](https://httpie.io/) etc.
+  #### Obtain an ID token via [Postman](https://www.postman.com/)
 
-The endpoint is a `Post` request on the `https://<rest-api-id>.execute-api.eu-north-1.amazonaws.com/prod/loan` route. The invocation URL for the API can be found in the API Gateway console (specifically in the Stages section). IIn Postman, switch to the "Headers" tab. Add a new header with the key `Authorization` and the value <ID_TOKEN>.  Provide the Request Body in raw format:
+  * Create a new user in the Cognito user pool in the Cognito console
+  * Navigate to the "App integration" section of the Cognito User Pool and note down the "App client ID"
+  * Open Postman and go to the "Authorization" tab. Select the "OAuth 2.0" option as the authentication type. In the "Configure New Token" dialog, provide the following information:
+      * Grant Type: Authorization Code
+      * Callback URL: https://example.com 
+      * Auth URL: https://remedation-app.auth.eu-north-1.amazoncognito.com/oauth2/authorize
+      * Access Token URL: https://remedation-app.auth.eu-north-1.amazoncognito.com/oauth2/token
+      * Client ID: <app-client-id> (replace with the App Client ID obtained above)
+      * Scope: openid
+  * Click on the "Get New Access Token" button in Postman. The Cognito Hosted UI will appear, prompting you to sign in with the user created in step 1. If prompted, reset your password as per the instructions. After successful sign-in, Postman will display the access token and ID token. Copy the ID token for use in your API requests
 
-```
-{
-  "age": 38,
-  "gender": "Male",
-  "income": 41820,
-  "loan_type": "Home",
-  "loan_amount": 221750,
-  "interest_rate": 0.1,
-  "loan_term": 58,
-  "loan_interest_rate": 10,
-  "credit_score": 424,
-  "employment_status": "Unemployed",
-  "marital_status": "Single",
-  "remediation_strategy": "Forbearance",
-  "missed_payments": 9,
-  "missed_payments_duration": 10
-}
-```
+  #### Test the authorized API endpoint
+
+  Once the token is obtained, you can now send a request to the API. You can do it a few different ways:
+  
+  * Via Postman:
+    The endpoint is a `Post` request on the `https://<rest-api-id>.execute-api.eu-north-1.amazonaws.com/prod/loan` route. The invocation URL for the API can be found in the API Gateway console (specifically in the Stages section). IIn Postman, switch to the "Headers" tab. Add a new header with the key `Authorization` and the value <ID_TOKEN>.  Provide the [Sample Request Body](./test-request-body.json) in raw format.
+
+  * Via the command line using tools like [cURL](https://curl.se/) and/or [HTTPie](https://httpie.io/) etc. Example shown below is with HTTPie:
+    ```
+     cat test-request-body.json | http "https://dnlpo28bi4.execute-api.us-east-1.amazonaws.com/prod/loan" "Authorization: Bearer <generated-auth-token>"
+    ```
 
 ## Generic CDK instructions
 
