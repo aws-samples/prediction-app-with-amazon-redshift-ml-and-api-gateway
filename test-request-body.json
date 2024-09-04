@@ -1,0 +1,17 @@
+{
+  "age": 38,
+  "gender": "Male",
+  "income": 41820,
+  "loan_type": "Home",
+  "loan_amount": 221750,
+  "interest_rate": 0.1,
+  "loan_term": 58,
+  "loan_interest_rate": 10,
+  "credit_score": 424,
+  "employment_status": "Unemployed",
+  "marital_status": "Single",
+  "remediation_strategy": "Forbearance",
+  "missed_payments": 9,
+  "missed_payments_duration": 10
+}
+

@@ -7,3 +7,10 @@ node_modules
 .cdk.staging
 cdk.out
 
+# environments
+.env
+env
+venv
+.venv
+
+.DS_Store

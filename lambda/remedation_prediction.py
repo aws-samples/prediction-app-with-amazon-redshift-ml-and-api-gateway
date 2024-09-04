@@ -1,7 +1,10 @@
-import boto3
+
 import json
 import os
 import time
+
+import boto3
+
 
 def lambda_handler(event, context):
     # Retrieve the input parameters from the API request
@@ -26,10 +29,12 @@ def lambda_handler(event, context):
 
     table_name = os.environ["REDSHIFT_TABLE_NAME"]
 
+    prediction_fn_name = os.environ["PREDICTION_FUNCTION_NAME"]
+
     # Construct the SQL query to get predictions
     predict_sql = f"""
     SELECT
-        public.ml_fn_prediction (
+        {prediction_fn_name} (
             {age}, '{gender}', {income}, '{loan_type}', {loan_amount}, {interest_rate}, {loan_term}, {loan_interest_rate}, {credit_score},
             '{employment_status}', '{marital_status}', '{remediation_strategy}', {missed_payments}, {missed_payments_duration}
         ) AS effective
@@ -63,10 +68,10 @@ def lambda_handler(event, context):
         # Return the prediction result as the API response
         return {
             'statusCode': 200,
-            'body': json.dumps({'effective': effective})
+            'body': {'effective': effective}
         }
     else:
         return {
             'statusCode': 200,
-            'body': json.dumps({'message': 'No prediction result found'})
+            'body': {'message': 'No prediction result found'}
         }
