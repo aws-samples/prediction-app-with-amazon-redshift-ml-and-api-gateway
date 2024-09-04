@@ -229,8 +229,8 @@ You can now attempt to test the function in the console again, and should not se
   * Open Postman and go to the "Authorization" tab. Select the "OAuth 2.0" option as the authentication type. In the "Configure New Token" dialog, provide the following information:
       * Grant Type: Authorization Code
       * Callback URL: https://example.com 
-      * Auth URL: https://remedation-app.auth.eu-north-1.amazoncognito.com/oauth2/authorize
-      * Access Token URL: https://remedation-app.auth.eu-north-1.amazoncognito.com/oauth2/token
+      * Auth URL: https://remedation-app.auth.<AWS_REGION>.amazoncognito.com/oauth2/authorize
+      * Access Token URL: https://remedation-app.auth.<AWS_REGION>.amazoncognito.com/oauth2/token
       * Client ID: <app-client-id> (replace with the App Client ID obtained above)
       * Scope: openid
   * Click on the "Get New Access Token" button in Postman. The Cognito Hosted UI will appear, prompting you to sign in with the user created in step 1. If prompted, reset your password as per the instructions. After successful sign-in, Postman will display the access token and ID token. Copy the ID token for use in your API requests
