@@ -10,6 +10,10 @@ Additionally, it serves the generated machine learning model via an API Endpoint
 
 The API Layer is protected by an authorization layer provided by [Amazon Cognito](https://aws.amazon.com/cognito/). Lastly, it shows how to use [AWS Web Application Firewall (WAF)](https://aws.amazon.com/waf/) to prevent attacks such as [bot attacks](https://www.cloudflare.com/en-gb/learning/bots/what-is-a-bot-attack/), [DDoS](https://www.cloudflare.com/en-gb/learning/ddos/what-is-a-ddos-attack/) etc.
 
+## Architecture
+
+![lambda_role](./architecture/architecture.png)
+
 
 ## Use case / domain 
 
@@ -171,19 +175,45 @@ It will open the editor in a new tab in your web browser. On the left hand pane 
     ```
     To fix this error, you'll have to set a higher MAX_RUNTIME under the SETTINGS object in the create model query. Full reference can be found on the [AWS Documentation](https://docs.aws.amazon.com/redshift/latest/dg/r_CREATE_MODEL.html).
 
+### Try to test the Lambda function in the console
+
+Navigate to the Lambda service in the AWS console, find out the function by searching for "AppStack", that should pull up the prediction lambda funtion. Click into it. There will be an option to test the function. It will ask you to create a test event. For this, you can copy the contents of the [test-request-body.json](./test-request-body.json) file, and paste it in the event.
+
+After you save the event, hit test, and you should receive an error, that looks something like:
+```
+{
+  "errorMessage": "Query failed: ERROR: permission denied for function or procedure ml_fn_prediction",
+  "errorType": "Exception",
+  "requestId": "8e7509a7-26c2-491d-85b3-3e3135cc3b9a",
+  "stackTrace": [
+    "  File \"/var/task/remedation_prediction.py\", line 59, in lambda_handler\n    raise Exception(f\"Query failed: {redshift_data.describe_statement(Id=response['Id'])['Error']}\")\n"
+  ]
+}
+```
+
+Don't worry, this is expected, follow the steps below to Grant the necessary database permissions to the IAM role of the lambda function.
+
 ### Grant Permissions for Lambda IAM Role
 
- To enable the Lambda function to execute the prediction query, you need to grant the necessary permissions to the IAM role associated with the Lambda function. Open the Amazon Redshift Query Editor and follow these commands:
+ To enable the Lambda function to execute the prediction query, you need to grant the necessary database access permissions to the IAM role associated with the Lambda function. 
+ 
+ Open the Amazon Redshift Query Editor and follow these commands:
 
 ```
-# Replace <lambda-role-name> with the name of the IAM role assigned to your Lambda function
+# Replace <lambda-role-name> with the name of the IAM role assigned to your Lambda function; and <redshift-table-name> with the value of the REDSHIFT_TABLE_NAME environment variable you set before deploying the solution.
 
 CREATE ROLE lambda_role;
 GRANT EXECUTE ON MODEL public.predict_model TO ROLE lambda_role;
-GRANT ALL PRIVILEGES ON TABLE public.raw_data TO ROLE lambda_role;
+GRANT ALL PRIVILEGES ON TABLE <redshift-table-name> TO ROLE lambda_role;
 GRANT ROLE lambda_role TO "IAMR:<lambda-role-name>";
 
 ```
+
+To find out what the lambda role name is, find the prediction lambda function, click into it, then click on "Configuration", and select "Permissions" on the left pane. Under "Execution role", you should be able to see the role name.
+
+![lambda_role](./screenshots/lambda_role.png)
+
+You can now attempt to test the function in the console again, and should not see that error anymore.
 
 ### Obtain an ID token via [Postman](https://www.postman.com/)
 
