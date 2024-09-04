@@ -240,12 +240,16 @@ You can now attempt to test the function in the console again, and should not se
   Once the token is obtained, you can now send a request to the API. You can do it a few different ways:
   
   * Via Postman:
-    The endpoint is a `Post` request on the `https://<rest-api-id>.execute-api.eu-north-1.amazonaws.com/prod/loan` route. The invocation URL for the API can be found in the API Gateway console (specifically in the Stages section). IIn Postman, switch to the "Headers" tab. Add a new header with the key `Authorization` and the value <ID_TOKEN>.  Provide the [Sample Request Body](./test-request-body.json) in raw format.
+    The endpoint is a `Post` request on the `<ENDPOINT_URL>` route. The invocation URL for the API can be found in the API Gateway console (specifically in the Stages section). IIn Postman, switch to the "Headers" tab. Add a new header with the key `Authorization` and the value <ID_TOKEN>.  Provide the [Sample Request Body](./test-request-body.json) in raw format.
 
   * Via the command line using tools like [cURL](https://curl.se/) and/or [HTTPie](https://httpie.io/) etc. Example shown below is with HTTPie:
     ```
-     cat test-request-body.json | http "https://dnlpo28bi4.execute-api.us-east-1.amazonaws.com/prod/loan" "Authorization: Bearer <generated-auth-token>"
+     cat test-request-body.json | http "<ENDPOINT_URL>" "Authorization: Bearer <generated-auth-token>"
     ```
+Note - you can locate the ENDPOINT_URL by going to the API Gateway service in the AWS Console, finding the API (should be named on the lines of "PredictionAPI"). If you click on Stages on the left pane, and expand till "/loan", you can copy the invoke (endpoint) URL.
+
+![endpoint_url](./screenshots/endpoint_url.png)
+
 
 ## Generic CDK instructions
 
