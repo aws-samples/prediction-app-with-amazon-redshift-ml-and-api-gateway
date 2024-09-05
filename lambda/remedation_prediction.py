@@ -85,6 +85,7 @@ def lambda_handler(event, context):
                 Sql=predict_sql
             )
             query_id = response['Id']
+            fetch_counter = 0
 
         elif failed_counter > MAX_ERROR_RETRIES:
             print("Maximum error retries reached")
